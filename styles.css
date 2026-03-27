@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* main page layout */
+
+.page {
+    display: flex;
+    gap: 40px;
+}
+
+/* main text area */
+
+.main {
+    flex: 3;
+}
+
+/* right information column */
+
+.sidebar {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* headings */
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+
+h3 {
+    background: #ddd;
+}
+
+/* links */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+:target {
+    background: #fff3b0;
+    padding: 4px;
+}
+
+
+.vestige-list {
+    margin-left: 12px;
+}
+
+.vestige-list li {
+    margin-bottom: 12px;
+}
+
+.vestige-info {
+    margin-left: 12px;
+}
+
+
+.boss-layout {
+    display: flex;
+    gap: 40px;
+}
+
+.boss-column {
+    flex: 1;
+}
+
+.boss-list {
+    margin-left: 20px;
+}
+
+.boss-list li {
+    margin-bottom: 18px;
+}
+
+.boss-info {
+    margin-left: 15px;
+}
+
+.boss-column h4 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+}
+
+
+
+.upgrade-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95rem;
+}
+
+.upgrade-table th,
+.upgrade-table td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+}
+
+.upgrade-table th {
+    font-weight: bold;
+}
+
+.upgrade-table td {
+}
+
+.note {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+
+.tabs {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tab {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #222;
+    border: 1px solid #444;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+/* Hover */
+.tab:hover {
+    background: #333;
+    color: white;
+}
+
+/* Active (current page) */
+.tab.active {
+    background: white;
+    color: black;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid white;
+}
+
+/* Visited pages */
+.tab:visited {
+    color: white;
+}
+
+.tab.active:visited {
+    color: black;
+}
+
+header {
+    padding-bottom: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+
+
+
+.class-card {
+    border: 1px solid #444;
+    padding: 12px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.class-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.class-card:hover {
+    background-color: #eee;
+    border-color: #666;
+}
+
+.class-card {
+    cursor: pointer;
+}
+
+.class-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+#core-traits ul {
+    list-style: none;
+    padding: 0;
+}
+
+#core-traits li {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    margin-bottom: 6px;
+}
+
+#core-traits strong {
+    font-weight: 600;
+}
