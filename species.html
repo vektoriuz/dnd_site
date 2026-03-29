@@ -1,361 +1,719 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Vestiges</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Species</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
 <!-- NAVBAR -->
 <header>
     <nav class="navbar">
-        <a href="index.html">Map</a>
-        <a href="locations.html">Locations</a>
-        <a href="vestiges.html">Vestiges</a>
-        <a href="bosses.html">Bosses</a>
-        <a href="character.html">Character</a>
-        <a href="upgrades.html">Upgrades</a>
+        <a href="index.html">Main page</a>
+        <a href="classes.html">Classes</a>
+        <a href="backgrounds.html">Backgrounds</a>
+        <a href="species.html">Species</a>
+        <a href="feats.html">Feats</a>
+        <a href="equipment.html">Equipment</a>
+        <a href="spells.html">Spells</a>
     </nav>
 </header>
 
-<h1>Vestiges</h1>
+<div class="tabs">
+    <a href="species.html#human" class="tab">Human</a>
 
-<p>This page lists all vestiges in the game, grouped by location.</p>
+    <a href="species.html#halfling" class="tab">Halfling</a>
+    <a href="species.html#dwarf" class="tab">Dwarf</a>
+
+    <a href="species.html#elf" class="tab">Elf</a>
+    <a href="species.html#gnome" class="tab">Gnome</a>
+
+    <a href="species.html#goliath" class="tab">Goliath</a>
+    <a href="species.html#orc" class="tab">Orc</a>
+
+    <a href="species.html#aasimar" class="tab">Aasimar</a>
+    <a href="species.html#tiefling" class="tab">Tiefling</a>
+
+    <a href="species.html#dragonborn" class="tab">Dragonborn</a>
+</div>
+
+<main class="content">
+
+    <h1>Species</h1>
+
+    <p>
+        Your species defines your character’s physical nature and innate abilities.
+        It provides core traits such as size, speed, and special features that shape
+        how your character interacts with the world.
+    </p>
+
+    <p>
+        Species represent the different peoples of the world, each with their own
+        strengths, characteristics, and cultural identities.
+    </p>
+
+    <hr>
 
 
 
-<h2><a href="locations/skyrest.html">Skyrest Bridge</a></h2>
- 
-<ul class="vestige-list">
 
-<li>
-<h3 id="ethryg">Vestige of Ethryg</h3>
-<p class="vestige-info">
-Located in the center of Skyrest bridge hub area.
+    <!-- HUMAN -->
+    <section class="species">
+        <h2 id="human">Human</h2>
+
+        <div class="species-layout">
+
+            <div class="species-traits">
+                <ul>
+                    <li><strong>Creature Type:</strong> Humanoid</li>
+                    <li><strong>Size:</strong> Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species</li>
+                    <li><strong>Speed:</strong> 30 feet</li>
+                </ul>
+		<p><strong>Special Traits:</strong></p>
+                <ul>
+                    <li><strong>Resourceful.</strong> You gain Heroic Inspiration whenever you finish a Long Rest.</li>
+                    <li><strong>Skillful.</strong> You gain proficiency in one skill of your choice.</li>
+                    <li><strong>Versatile</strong> You gain an Origin feat of your choice. Skilled is recommended.</li>
+                </ul>
+            </div>
+
+            <div class="species-description">
+<p>
+Found throughout the multiverse, humans are as varied as they are numerous, and they endeavor to achieve as much as they can in the years they are given. Their ambition and resourcefulness are commended, respected, and feared on many worlds.
 </p>
-<p class="vestige-info"><strong>Notes:</strong> Available always.</p>
-</li>
 
-</ul>
-
-
-<h2><a href="locations/sepulchre.html">Defiled Sepulchre</a></h2>
-
-<ul class="vestige-list">
-
-<li>
-<h3 id="ranik">Vestige of Ranik</h3>
-<p class="vestige-info">
-Located just outside the Sepulchre exit.
+<p>
+Humans are as diverse in appearance as the people of Earth, and they have many gods. Scholars dispute the origin of humanity, but one of the earliest known human gatherings is said to have occurred in Sigil, the torus-shaped city at the center of the multiverse and the place where the Common language was born. From there, humans could have spread to every part of the multiverse, bringing the City of Doors' cosmopolitanism with them.
 </p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
 
-</ul>
+            </div>
 
+        </div>
+    </section>
 
 
-<h2><a href="locations/redcopse.html">Abandoned Redcopse</a></h2>
 
-<ul class="vestige-list">
 
-<li><h3 id="hannelore">Vestige of Hannelore</h3>
-<p class="vestige-info">
-Located near the Redcopse village entrance.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
+<!-- HALFLING -->
+<section class="species">
+    <h2 id="halfling">Halfling</h2>
 
+    <div class="species-layout">
 
-<li><h3 id="marco">Vestige of Marco the Axe</h3>
-<p class="vestige-info">
-Located near the Redcopse windmill.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to minor vestige decay.</p>
-</li>
+        <div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Small (about 2–3 feet tall)</li>
+        <li><strong>Speed:</strong> 30 feet</li>
+    </ul>
 
-</ul>
+    <p><strong>Special Traits:</strong></p>
 
+    <ul>
+        <li><strong>Brave.</strong> You have Advantage on saving throws you make to avoid or end the Frightened condition.</li>
+        <li><strong>Halfling Nimbleness.</strong> You can move through the space of any creature that is a size larger than you, but you can’t stop in the same space.</li>
+        <li><strong>Luck.</strong> When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</li>
+        <li><strong>Naturally Stealthy.</strong> You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.</li>
+    </ul>
+</div>
 
+        <div class="species-description">
+            <p>
+Cherished and guided by gods who value life, home, and hearth, halflings gravitate toward bucolic havens where family and community help shape their lives. That said, many halflings possess a brave and adventurous spirit that leads them on journeys of discovery, affording them the chance to explore a bigger world and make new friends along the way. Their size - similar to that of a human child -helps them pass through crowds unnoticed and slip through tight spaces.
+            </p>
 
-<h2><a href="locations/perch.html">Pilgrim's Perch</a></h2>
+            <p>
+Anyone who has spent time around halflings, particularly halfling adventurers, has likely witnessed the storied “luck of the halflings” in action. When a halfling is in mortal danger, an unseen force seems to intervene on the halfling’s behalf. Many halflings believe in the power of luck, and they attribute their unusual gift to one or more of their benevolent gods, including Yondalla, Brandobaris, and Charmalaine. The same gift might contribute to their robust life spans (about 150 years).
+            </p>
 
-<ul class="vestige-list">
+            <p>
+Halfling communities come in all varieties. For every sequestered shire tucked away in an unspoiled part of the world, there's a crime syndicate like the Boromar Clan in the Eberron setting or a territorial mob of halflings like those in the Dark Sun setting.
+	    </p>
 
-<li><h3 id="chabui">Vestige of the Chabui</h3>
-<p class="vestige-info">
-Located in the Sanctuary of Baptism, just before the transition to the night side of the Perch.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
+	    <p>
+Halflings who prefer to live underground are sometimes called strongheart halflings or stouts. Nomadic halflings, as well as those who live among humans and other tall folk, are sometimes called lightfoot halflings or tallfellows.
+            </p>
+        </div>
 
+    </div>
 
-<li><h3 id="agatha">Vestige of Blind Agatha</h3>
-<p class="vestige-info">
-Found in the Ballroom along the upper walkways of Pilgrim's Perch after navigating several ladders and
-narrow cliffside passages.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
+</section>
 
-</ul>
+    <!-- DWARF -->
+    <section class="species">
+        <h2 id="dwarf">Dwarf</h2>
 
+        <div class="species-layout">
+            <div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Medium (about 4–5 feet tall)</li>
+        <li><strong>Speed:</strong> 30 feet</li>
+    </ul>
 
+    <p><strong>Special Traits:</strong></p>
 
-<h2><a href="locations/fen.html">Forsaken Fen</a></h2>
+    <ul>
+        <li><strong>Darkvision.</strong> You have Darkvision with a range of 120 feet.</li>
+        <li><strong>Dwarven Resilience.</strong> You have Resistance to Poison damage, and you have Advantage on saving throws you make to avoid or end the Poisoned condition.</li>
+        <li><strong>Dwarven Toughness.</strong> Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.</li>
+        <li><strong>Stonecunning.</strong> As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.
 
-<ul class="vestige-list">
+You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all
+expended uses when you finish a Long Rest.</li>
+    </ul>
+</div>
 
-<li>
-<h3 id="olleren">Vestige of Olleren</h3>
-<p class="vestige-info">
-Located near the Fen lookout.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
+            <div class="species-description">
+    <p>
+Dwarves were raised from the earth in the elder days by a deity of the forge. Called by various names on different worlds - Moradin, Reorx, and others - that god gave dwarves an affinity for stone and metal and for living underground. The god also made them resilient like the mountains, with a life span of about 350 years.
+    </p>
 
+    <p>
+Squat and often bearded, the original dwarves carved cities and strongholds into mountainsides and under the earth. Their oldest legends tell of conflicts with the monsters of mountaintops and the Underdark, whether those monsters were towering giants or subterranean horrors. Inspired by those tales, dwarves of any culture often sing of valorous deeds - especially of the little overcoming the mighty.
+    </p>
 
-<li>
-<h3 id="valade">Vestige of Valade</h3>
-<p class="vestige-info">
-Found near the entrance of the swamp area after descending from Pilgrim's Perch.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
+    <p>
+On some worlds in the multiverse, the first settlements of dwarves were built in hills or mountains, and the families who trace their ancestry to those settlements call themselves hill dwarves or mountain dwarves, respectively. The Greyhawk and Dragonlance settings have such communities.
+    </p>
 
+</div>
+        </div>
+    </section>
+
 
-<li>
-<h3 id="butcher">Vestige of Pale Butcher</h3>
-<p class="vestige-info">
-Located at the entrance to the Shuja Hamlet.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
+
 
-</ul>
+    <!-- ELF -->
+    <section class="species">
+        <h2 id="elf">Elf</h2>
+
+        <div class="species-layout">
+<div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Medium (about 5–6 feet tall)</li>
+        <li><strong>Speed:</strong> 30 feet</li>
+    </ul>
+
+    <p><strong>Special Traits:</strong></p>
+
+    <ul>
+        <li><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</li>
+
+        <li><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the Charmed condition.</li>
+
+        <li><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</li>
+
+        <li><strong>Trance.</strong> You don't need to sleep, and magic can't put you to sleep. 
+You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</li>
+
+        <li><strong>Elven Lineage.</strong> You are part of a lineage that grants you supernatural abilities. 
+Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.
+
+When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. 
+You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. 
+You can also cast the spell using any spell slots you have of the appropriate level.
+
+Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</li>
+    </ul>
+</div>
+
+<div class="species-description">
+    <p>
+Created by the god Corellon, the first elves could change their forms at will. They lost this ability when Corellon cursed them for plotting with the deity Lolth, who tried and failed to usurp Corellon's dominion. When Lolth was cast into the Abyss, most elves renounced her and earned Corellon’s forgiveness, but that which Corellon had taken from them was lost forever.
+    </p>
+
+    <p>
+No longer able to shape-shift at will, the elves retreated to the Feywild, where their sorrow was deepened by that plane’s influence. Over time, curiosity led many of them to explore other planes of existence, including worlds in the Material Plane.
+    </p>
+
+    <p>
+Elves have pointed ears and lack facial and body hair. They live for around 750 years, and they don't sleep but instead enter a trance when they need to rest. In that state, they remain aware of their surroundings while immersing themselves in memories and meditations.
+    </p>
+
+    <p>
+An environment subtly transforms elves after they inhabit it for a millennium or more, and it grants them certain kinds of magic. High elves, wood elves, and drow are examples of elves who have been transformed thus.
+    </p>
+
+    <p>
+<strong>High Elves:</strong> High elves have been infused with the magic of crossings between the Feywild and the Material Plane. On some worlds, high elves refer to themselves by other names. For example, they call themselves sun or moon elves in the Forgotten Realms setting, Silvanesti and Qualinesti in the Dragonlance setting, and Aereni in the Eberron setting.
+    </p>
+
+    <p>
+<strong>Wood Elves:</strong> Wood elves carry the magic of primeval forests within themselves. They are known by many other names, including wild elves, green elves, and forest elves. Grugach are reclusive wood elves of the Greyhawk setting, while the Kagonesti and the Tairnadal are wood elves of the Dragonlance and Eberron settings, respectively.
+    </p>
+
+    <p>
+<strong>Drow:</strong> Drow typically dwell in the Underdark and have been shaped by it. Some drow individuals and societies avoid the Underdark altogether yet carry its magic. In the Eberron setting, for example, drow dwell in rainforests and cyclopean ruins on the continent of Xen'drik.
+    </p>
+</div>
+        </div>
+
+<section class="subspecies">
+
+<h4>Elven Lineages</h4>
+
+<table class="upgrade-table">
+        <tr>
+            <th>Lineage</th>
+            <th>Level 1</th>
+            <th>Level 3</th>
+            <th>Level 5</th>
+        </tr>
+        <tr>
+            <td>High Elf</td>
+            <td>You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td>
+            <td>Detect Magic</td>
+            <td>Misty Step</td>
+        </tr>
+        <tr>
+            <td>Wood Elf</td>
+            <td>Your Speed increases to 35 feet. You also know the Druidcraft cantrip.</td>
+            <td>Longstrider</td>
+            <td>Pass without Trace</td>
+        </tr>
+        <tr>
+            <td>Drow</td>
+            <td>The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.</td>
+            <td>Faerie Fire</td>
+            <td>Darkness</td>
+        </tr>
+    </table>
+
+</section>
+
+    </section>
+
+
+
+
+    <!-- GNOME -->
+    <section class="species">
+        <h2 id="gnome">Gnome</h2>
+
+        <div class="species-layout">
+<div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Small (about 3–4 feet tall)</li>
+        <li><strong>Speed:</strong> 30 feet</li>
+    </ul>
+
+    <p><strong>Special Traits:</strong></p>
+
+    <ul>
+        <li><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</li>
+        <li><strong>Gnomish Cunning.</strong> You have Advantage on Intelligence, Wisdom, and Charisma saving throws.</li>
+        <li><strong>Gnomish Lineage.</strong> You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):</li>
+    </ul>
+</div>
+
+            <div class="species-description">
+    <p>
+Gnomes are magical folk created by gods of invention, illusions, and life underground. The earliest gnomes were seldom seen by other folk due to the gnomes' secretive nature and their propensity for living in forests and burrows. What they lacked in size, they made up for in cleverness. They confounded predators with traps and labyrinthine tunnels. They also learned magic from gods like Garl Glittergold, Baervan Wildwanderer, and Baravar Cloakshadow, who visited them in disguise. That magic eventually created the lineages of forest gnomes and rock gnomes.
+    </p>
+
+    <p>
+Gnomes are petite folk with big eyes and pointed ears, who live around 425 years. Many gnomes like the feeling of a roof over their head, even if that “roof” is nothing more than a hat.
+    </p>
+
+</div>
+        </div>
+
+<section class="subspecies">
+    <h4>Gnomish Lineages</h4>
+    <ul>
+        <li>
+            <strong>Forest Gnome.</strong>
+            You know the Minor Illusion cantrip.
+You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.
+        </li>
+
+        <li>
+            <strong>Rock Gnome.</strong>
+            You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5,1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.
+        </li>
+    </ul>
+</section>
+
+    </section>
+
+
+
 
+    <!-- GOLIATH -->
+    <section class="species">
+        <h2 id="goliath">Goliath</h2>
+
+        <div class="species-layout">
+<div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Medium (about 7–8 feet tall)</li>
+        <li><strong>Speed:</strong> 35 feet</li>
+    </ul>
+
+    <p><strong>Special Traits:</strong></p>
 
+    <ul>
 
-<h2><a href="locations/gorge.html">Fitzroy's Gorge</a></h2>
+        <li><strong>Large Form.</strong> Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.</li>
 
-<ul class="vestige-list">
+        <li><strong>Powerful Build.</strong> You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.</li>
 
-<li>
-<h3 id="eliard">Vestige of Betrayed Eliard</h3>
-<p class="vestige-info">
-Located in the Shrine of Adyr.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available always.</p>
-</li>
+        <li><strong>Giant Ancestry.</strong> You are descended from Giants. Choose one of the following benefits - a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:</li>
+    </ul>
+</div>
 
-</ul>
+<div class="species-description">
+    <p>
+Towering over most folk, goliaths are distant descendants of giants. Each goliath bears the favors of the first giants - favors that manifest in various supernatural boons, including the ability to quickly grow and temporarily approach the height of goliaths’ gigantic kin.
+    </p>
 
+    <p>
+Goliaths have physical characteristics that are reminiscent of the giants in their family lines. For example, some goliaths look like stone giants, while others resemble fire giants. Whatever giants they count as kin, goliaths have forged their own path in the multiverse - unencumbered by the internecine conflicts that have ravaged giantkind for ages - and seek heights above those reached by their ancestors.
+    </p>
 
+</div>
+        </div>
 
-<h2><a href="locations/calrathl.html">Lower Calrath</a></h2>
+<section class="subspecies">
+    <h4>Giant Ancestries</h4>
+    <ul>
+        <li>
+            <strong>Cloud's Jaunt (Cloud Giant).</strong>
+            As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.
+        </li>
 
-<ul class="vestige-list">
+        <li>
+            <strong>Fire's Burn (Fire Giant).</strong>
+            When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.
+        </li>
 
-<li>
-<h3 id="sebastian">Vestige of Sebastian</h3>
-<p class="vestige-info">
-Located in the burning ruined depot at the start of the area.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
+        <li>
+            <strong>Frost's Chill (Frost Giant).</strong>
+            When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.
+        </li>
 
+        <li>
+            <strong>Hill's Tumble (Hill Giant).</strong>
+            When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.
+        </li>
 
-<li>
-<h3 id="lydia">Vestige of Lydia the Numb Witch</h3>
-<p class="vestige-info">
-Located at the top floor of the alehouse dividing two main parts of the area.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
+        <li>
+            <strong>Stone's Endurance (Stone Giant).</strong>
+            When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.
+        </li>
 
-</ul>
+        <li>
+            <strong>Storm's Thunder (Storm Giant).</strong>
+            When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.
+        </li>
+    </ul>
+</section>
 
+    </section>
 
 
-<h2><a href="locations/calrathu.html">Upper Calrath</a></h2>
 
-<ul class="vestige-list">
 
-<li>
-<h3 id="doln">Vestige of Doln</h3>
-<p class="vestige-info">
-Found in the mining district at the start of the area.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
+    <!-- ORC -->
+    <section class="species">
+        <h2 id="orc">Orc</h2>
 
+        <div class="species-layout">
+<div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Medium (about 6–7 feet tall)</li>
+        <li><strong>Speed:</strong> 30 feet</li>
+    </ul>
 
-<li>
-<h3 id="guardian">Vestige of the Forgotten Guardian</h3>
-<p class="vestige-info">
-Located at the top of the elevator from Sunless Skein.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
+    <p><strong>Special Traits:</strong></p>
 
-</ul>
+    <ul>
+        <li><strong>Darkvision.</strong> You have Darkvision with a range of 120 feet.</li>
 
+        <li><strong>Adrenaline Rush.</strong> You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus. You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.</li>
 
+        <li><strong>Relentless Endurance.</strong> When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can’t use it again until you finish a Long Rest.</li>
+    </ul>
+</div>
 
-<h2><a href="locations/skein.html">Sunless Skein</a></h2>
+<div class="species-description">
+    <p>
+Orcs trace their creation to Gruumsh, a powerful god who roamed the wide open spaces of the Material Plane. Gruumsh equipped his children with gifts to help them wander great plains, vast caverns, and churning seas and to face the monsters that lurk there. Even when they turn their devotion to other gods, orcs retain Gruumsh’s gifts: endurance, determination, and the ability to see in darkness.
+    </p>
 
-<ul class="vestige-list">
+    <p>
+Orcs are, on average, tall and broad. They have gray skin, ears that are sharply pointed, and prominent lower canines that resemble small tusks. Orc youths on some worlds are told about their ancestors' great travels and travails. Inspired by those tales, many of those orcs wonder when Gruumsh will call on them to match the heroic deeds of old and if they will prove worthy of his favor. Other orcs are happy to leave old tales in the past and find their own way.
+    </p>
 
-<li>
-<h3 id="antuli">Vestige of Hooded Antuli </h3>
-<p class="vestige-info">
-Located at the start of the mines.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
+</div>
+        </div>
+    </section>
 
 
-<li>
-<h3 id="catrin">Vestige of Catrin</h3>
-<p class="vestige-info">
-Located next to the previously flooded area near the shortcut elevator to Revelation Depths.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
 
-</ul>
 
+    <!-- AASIMAR -->
+    <section class="species">
+        <h2 id="aasimar">Aasimar</h2>
 
+        <div class="species-layout">
+<div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Medium (about 4-7 feet tall) or Small (about 2-4 feet tall), chosen when you select this species</li>
+        <li><strong>Speed:</strong> 30 feet</li>
+    </ul>
 
-<h2><a href="locations/depths.html">Revelation Depths</a></h2>
+    <p><strong>Special Traits:</strong></p>
 
-<ul class="vestige-list">
+    <ul>
+        <li><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</li>
 
-<li>
-<h3 id="berescu">Vestige of Lost Berescu</h3>
-<p class="vestige-info">
-Positioned near the bottom of the shortcut elevator from Sunless Skein.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to minor vestige decay.</p>
-</li>
+        <li><strong>Celestial Resistance.</strong> You have Resistance to Necrotic damage and Radiant damage.</li>
 
-</ul>
+        <li><strong>Healing Hands.</strong> As a Magic action, you touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can't use it again until you finish a Long Rest.</li>
 
+        <li><strong>Light Bearer.</strong> You know the Light cantrip. Charisma is your spellcasting ability for it.</li>
 
+        <li><strong>Celestial Revelation.</strong> When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can’t do so again until you finish a Long Rest.
 
-<h2><a href="locations/fief.html">Fief of the Chill Curse</a></h2>
+Once on each of your turns before the transformation ends, you can deal extra damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your Proficiency Bonus, and the extra damage’s type is either Necrotic for Necrotic Shroud or Radiant for Heavenly Wings and Inner Radiance.</li>
+    </ul>
+</div>
 
-<ul class="vestige-list">
+<div class="species-description">
+    <p>
+Aasimar (pronounced AH-sih-mar) are mortals who carry a spark of the Upper Planes within their souls. Whether descended from an angelic being or infused with celestial power, they can fan that spark to bring light, healing, and heavenly fury. Aasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and have features that hint at their celestial heritage, such as metallic freckles, luminous eyes, a halo, or the skin color of an angel (silver, opalescent green, or coppery red). These features start subtle and become obvious when the aasimar learns to reveal their full celestial nature.
+    </p>
 
-<li>
-<h3 id="svornil">Vestige of Svornil</h3>
-<p class="vestige-info">
-Located among the ruined structures at the entrance of the frozen settlement.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
+</div>
+        </div>
 
+<section class="subspecies">
+    <h4>Transformation options:</h4>
+    <ul>
+        <li>
+            <strong>Heavenly Wings.</strong>
+            Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a Fly Speed equal to your Speed.
+        </li>
 
-<li>
-<h3 id="loash">Vestige of Loash</h3>
-<p class="vestige-info">
-Located just before the Crow's Nest.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to minor vestige decay.</p>
-</li>
+        <li>
+            <strong>Inner Radiance.</strong>
+            Searing light temporarily radiates from your eyes and mouth. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your Proficiency Bonus.
+        </li>
+
+        <li>
+            <strong>Necrotic Shroud.</strong>
+            Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn.
+        </li>
+
+    </ul>
+</section>
+
+    </section>
+
+
+
+
+    <!-- TIEFLING -->
+    <section class="species">
+        <h2 id="tiefling">Tiefling</h2>
+
+        <div class="species-layout">
+<div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Medium (about 4-7 feet tall) or Small (about 3-4 feet tall), chosen when you select this species</li>
+        <li><strong>Speed:</strong> 30 feet</li>
+    </ul>
+
+    <p><strong>Special Traits:</strong></p>
 
-</ul>
+    <ul>
+        <li><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</li>
+
+        <li><strong>Otherworldly Presence.</strong> You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</li>
+
+        <li><strong>Fiendish Legacy.</strong> You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.
+
+When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
+
+Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).</li>
+    </ul>
+</div>
+
+<div class="species-description">
+    <p>
+Tieflings are either born in the Lower Planes or have fiendish ancestors who originated there. A tiefling (pronounced TEE-fling) is linked by blood to a devil, a demon, or some other Fiend. This connection to the Lower Planes is the tiefling's fiendish legacy, which comes with the promise of power yet has no effect on the tiefling's moral outlook.
+    </p>
 
+    <p>
+A tiefling chooses whether to embrace or lament their fiendish legacy. The three legacies are described below.
+    </p>
 
+    <p>
+<strong>Infernal:</strong> The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.
+    </p>
 
-<h2><a href="locations/path.html">Path of Devotion</a></h2>
+    <p>
+<strong>Abyssal:</strong> The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.
+    </p>
 
-<ul class="vestige-list">
+    <p>
+<strong>Chthonic:</strong> Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.
+    </p>
+</div>
+        </div>
 
-<li>
-<h3 id="dieter">Vestige of Dieter</h3>
-<p class="vestige-info">
-Located at the Path of Devotion Memorial.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to minor vestige decay.</p>
-</li>
+<section class="subspecies">
+    <h4>Fiendish Legacies</h4>
+    
+<table class="upgrade-table">
+    <tr>
+        <th>Legacy</th>
+        <th>Level 1</th>
+        <th>Level 3</th>
+        <th>Level 5</th>
+    </tr>
 
-</ul>
+    <tr>
+        <td>Infernal</td>
+        <td>
+            You have Resistance to Fire damage. You also know the Fire Bolt cantrip.
+        </td>
+        <td>
+            Hellish Rebuke
+        </td>
+        <td>
+            Darkness
+        </td>
+    </tr>
 
+    <tr>
+        <td>Abyssal</td>
+        <td>
+            You have Resistance to Poison damage. You also know the Poison Spray cantrip.
+        </td>
+        <td>
+            Ray of Sickness
+        </td>
+        <td>
+            Hold Person
+        </td>
+    </tr>
+
+    <tr>
+        <td>Chthonic</td>
+        <td>
+            You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.
+        </td>
+        <td>
+            False Life
+        </td>
+        <td>
+            Ray of Enfeeblement
+        </td>
+    </tr>
 
+</table>
 
-<h2><a href="locations/manse.html">Manse of the Hallowed Brothers</a></h2>
+</section>
+    </section>
 
-<ul class="vestige-list">
 
-<li>
-<h3 id="ferrers">Vestige of Ferrers the Charred</h3>
-<p class="vestige-info">
-Found on the Manse Supply Pathway at the start of the arrea.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Only available without vestige decay.</p>
-</li>
 
 
-<li>
-<h3 id="jeremiah">Vestige of Brother Jeremiah</h3>
-<p class="vestige-info">
-Found inside the central leprosarium.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
+    <!-- DRAGONBORN -->
+    <section class="species">
+        <h2 id="dragonborn">Dragonborn</h2>
 
-</ul>
+        <div class="species-layout">
+<div class="species-traits">
+    <ul>
+        <li><strong>Creature Type:</strong> Humanoid</li>
+        <li><strong>Size:</strong> Medium (about 5–7 feet tall)</li>
+        <li><strong>Speed:</strong> 30 feet</li>
+    </ul>
 
+    <p><strong>Special Traits:</strong></p>
 
+    <ul>
+        <li><strong>Darkvision.</strong> You have Darkvision with a range of 60 feet.</li>
 
-<h2><a href="locations/abbey.html">Abbey of the Hallowed Sisters</a></h2>
+        <li><strong>Draconic Flight.</strong> When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.</li>
 
-<ul class="vestige-list">
+        <li><strong>Draconic Ancestry.</strong> Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.</li>
 
-<li>
-<h3 id="rosamund">Vestige of Rosamund</h3>
-<p class="vestige-info">
-Located within the sacred courtyard of the Abbey complex.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to minor vestige decay.</p>
-</li>
+        <li><strong>Breath Weapon.</strong> When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).
 
-</ul>
+You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</li>
 
+        <li><strong>Damage Resistance.</strong> You have Resistance to the damage type associated with your Draconic Ancestry.</li>
+    </ul>
+</div>
 
+<div class="species-description">
+    <p>
+The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the multiverse with people created in their image. Another story claims that dragons created the first dragonborn without the gods’ blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.
+    </p>
 
-<h2><a href="locations/empyrean.html">The Empyrean</a></h2>
+    <p>
+Dragonborn look like wingless, bipedal dragons - scaly, bright-eyed, and thick-boned with horns on their heads - and their coloration and other features are reminiscent of their draconic ancestors.
+    </p>
 
-<ul class="vestige-list">
+</div>
+        </div>
 
-<li>
-<h3 id="iorelo">Vestige of Iorelo the Cursed Knight</h3>
-<p class="vestige-info">
-Located near the area's entrance.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
+<section class="subspecies">
 
-</ul>
+    <h4>Draconic Ancestors</h4>
 
+    
+<table class="upgrade-table">
+    <tr>
+        <th>Dragon</th>
+         <td>Red</td>
+        <td>Brass</td>
+        <td>Gold</td>
+        <td>Blue</td>
+        <td>Bronze</td>
+        <td>Green</td>
+        <td>Black</td>
+        <td>Copper</td>
+        <td>Silver</td>
+        <td>White</td>
 
+    </tr>
 
-<h2><a href="locations/castle.html">Bramis Castle</a></h2>
+    <tr>
+        <th>Damage Type</th>
+        <td>Fire</td>
+        <td>Fire</td>
+        <td>Fire</td>
+        <td>Lightning</td>
+        <td>Lightning</td>
+        <td>Poison</td>
+        <td>Acid</td>
+        <td>Acid</td>
+        <td>Cold</td>
+        <td>Cold</td>
+    </tr>
 
-<ul class="vestige-list">
+</table>
 
-<li>
-<h3 id="pilgrim">Vestige of the Bloody Pilgrim</h3>
-<p class="vestige-info">
-Located at the courtyard in front of the entrance to the main castle building.
-</p>
-<p class="vestige-info"><strong>Notes:</strong> Available up to extensive vestige decay.</p>
-</li>
 
-</ul>
+</section>
+
+    </section>
+
+</main>
 
 </body>
 </html>

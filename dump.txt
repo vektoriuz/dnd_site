@@ -1,0 +1,54 @@
+<div class="feat-card">
+
+<h4>Fast Crafting</h4>
+
+<table class="upgrade-table">
+
+    <tr>
+        <th>Artisan's Tools</th>
+        <th>Crafted Gear</th>
+    </tr>
+
+    <tr>
+        <td>Carpenter's Tools</td>
+        <td>Ladder, Torch</td>
+    </tr>
+
+    <tr>
+        <td>Leatherworker's Tools</td>
+        <td>Case, Pouch</td>
+    </tr>
+
+    <tr>
+        <td>Mason's Tools</td>
+        <td>Block and Tackle</td>
+    </tr>
+
+    <tr>
+        <td>Leatherworker's Tools</td>
+        <td>Case, Pouch</td>
+    </tr>
+
+    <tr>
+        <td>Leatherworker's Tools</td>
+        <td>Case, Pouch</td>
+    </tr>
+
+    <tr>
+        <td>Leatherworker's Tools</td>
+        <td>Case, Pouch</td>
+    </tr>
+
+    <tr>
+        <td>Leatherworker's Tools</td>
+        <td>Case, Pouch</td>
+    </tr>
+
+    <tr>
+        <td>Leatherworker's Tools</td>
+        <td>Case, Pouch</td>
+    </tr>
+
+</table>
+
+</div>
