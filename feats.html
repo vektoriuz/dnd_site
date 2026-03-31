@@ -21,10 +21,25 @@
     </nav>
 </header>
 
+
+<main>
+
+<h1>Feats</h1>
+
+<p>
+    Feats represent specialized abilities that enhance your character’s capabilities.
+    They can grant new options, improve existing ones, or define a particular playstyle.
+</p>
+
+<p>
+    Feats are divided into four main categories:
+</p>
+
+
 <div class="tabs-section">
 
     <div class="tabs-category">
-        <h4>Origin Feats</h4>
+     <p><strong>Origin Feats</strong> — gained at character creation through backgrounds</p>
         <div class="tabs-grid">
             <a href="#alert" class="tab">Alert</a>
             <a href="#crafter" class="tab">Crafter</a>
@@ -41,7 +56,7 @@
 
 
     <div class="tabs-category">
-        <h4>General Feats</h4>
+    <p><strong>General Feats</strong> — broadly available improvements and specializations</p>
         <div class="tabs-grid">
 
     <a href="feats.html#ability-score-improvement" class="tab">Ability Score Improvement</a>
@@ -93,7 +108,7 @@
 
 <div class="tabs-category">
 
-    <h4>Fighting Style Feats</h4>
+    <p><strong>Fighting Style Feats</strong> — combat-focused techniques</p>
 
     <div class="tabs-grid">
         <a href="#archery" class="tab">Archery</a>
@@ -112,7 +127,7 @@
 
 <div class="tabs-category">
 
-    <h4>Epic Boon Feats</h4>
+    <p><strong>Epic Boon Feats</strong> — powerful abilities gained at high levels</p>
 
     <div class="tabs-grid">
         <a href="#boon-of-combat-prowess" class="tab">Combat Prowess</a>
@@ -133,25 +148,7 @@
 
 </div>
 
-<main>
 
-<h1>Feats</h1>
-
-<p>
-    Feats represent specialized abilities that enhance your character’s capabilities.
-    They can grant new options, improve existing ones, or define a particular playstyle.
-</p>
-
-<p>
-    Feats are divided into four main categories:
-</p>
-
-<ul>
-    <li><strong>Origin Feats</strong> — gained at character creation through backgrounds</li>
-    <li><strong>General Feats</strong> — broadly available improvements and specializations</li>
-    <li><strong>Fighting Style Feats</strong> — combat-focused techniques</li>
-    <li><strong>Epic Boon Feats</strong> — powerful abilities gained at high levels</li>
-</ul>
 
 <hr>
 
@@ -355,10 +352,12 @@
 
     <h3 id="ability-score-improvement">Ability Score Improvement</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 4+</em>
+
+    <p>Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20.</p>
 
     <ul>
-        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1.</li>
+        <li><strong>Repeatable.</strong> You can take this feat more than once.</li>
     </ul>
 
 </div>
@@ -368,15 +367,19 @@
 
     <h3 id="actor">Actor</h3>
 
+    <em>Prerequisite: Level 4+, Charisma 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Mimicry.</strong> You can mimic the speech of another person or the sounds made by other creatures. A creature that hears the sounds can tell they are imitations with a successful Insight check.</li>
+        <li><strong>Impersonation.</strong> While you're disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks to convince others that you are that person.</li>
 
-        <li><strong>Performance Expertise.</strong> You have Advantage on Charisma (Performance) checks when trying to pass yourself off as a different person.</li>
+        <li><strong>Mimicry.</strong> You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom (Insight) check to determine the effect is faked (DC 8 plus your Charisma modifier and Proficiency Bonus).</li>
     </ul>
+
+
 
 </div>
 
@@ -385,6 +388,8 @@
 
     <h3 id="athlete">Athlete</h3>
 
+    <em>Prerequisite: Level 4+, Strength or Dexterity 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
@@ -392,7 +397,9 @@
 
         <li><strong>Climb Speed.</strong> You gain a Climb Speed equal to your Speed.</li>
 
-        <li><strong>Stand Up.</strong> Standing up from Prone costs only 5 feet of movement.</li>
+        <li><strong>Hop Up.</strong> When you have the Prone condition, you can right yourself with only 5 feet of movement.</li></li>
+
+        <li><strong>Jumping.</strong> You can make a running Long or High Jump after moving only 5 feet.</li>
     </ul>
 
 </div>
@@ -402,10 +409,16 @@
 
     <h3 id="charger">Charger</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 4+, Strength or Dexterity 13+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Charge Attack.</strong> If you move at least 10 feet in a straight line toward a target immediately before hitting it with a melee attack, you can deal extra damage or push the target.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
+
+        <li><strong>Improved Dash.</strong> When you take the Dash action, your Speed increases by 10 feet for that action.</li>
+
+        <li><strong>Charge Attack.</strong> If you move at least 10 feet in a straight line toward a target immediately before hitting it with a melee attack roll as part of the Attack action, choose one of the following effects: gain a 1d8 bonus to the attack's damage roll, or push the target up to 10 feet away if it is no more than one size larger than you. You can use this benefit only once on each of your turns.</li>
     </ul>
 
 </div>
@@ -415,14 +428,18 @@
 
     <h3 id="chef">Chef</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Constitution or Wisdom score by 1, to a maximum of 20.</li>
 
-        <li><strong>Cook’s Utensils.</strong> You gain proficiency with Cook’s Utensils.</li>
+        <li><strong>Cook’s Utensils.</strong> You gain proficiency with Cook's Utensils if you don't already have it.</li>
 
-        <li><strong>Special Food.</strong> During a Short Rest, you can cook special food that grants temporary benefits to creatures who consume it.</li>
+        <li><strong>Replenishing Meal.</strong> As part of a Short Rest, you can cook special food if you have ingredients and Cook's Utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 plus your Proficiency Bonus. At the end of the Short Rest, any creature who eats the food and spends one or more Hit Dice to regain Hit Points regains an extra 1d8 Hit Points.</li>
+
+        <li><strong>Bolstering Treats.</strong> With 1 hour of work or when you finish a Long Rest, you can cook a number of treats equal to your Proficiency Bonus if you have ingredients and Cook's Utensils on hand. These special treats last 8 hours after being made. A creature can use a Bonus Action to eat one of those treats. to gain a number of Temporary Hit Points equal to your Proficiency Bonus.</li>
     </ul>
 
 </div>
@@ -432,14 +449,18 @@
 
     <h3 id="crossbow-expert">Crossbow Expert</h3>
 
+    <em>Prerequisite: Level 4+, Dexterity 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Ignore Loading.</strong> You ignore the Loading property of crossbows.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Close Combat.</strong> Being within 5 feet of a hostile creature doesn’t impose Disadvantage on your ranged attack rolls.</li>
+        <li><strong>Ignore Loading.</strong> You ignore the Loading property of the Hand Crossbow, Heavy Crossbow, and Light Crossbow (all called crossbows elsewhere in this feat). If you're holding one of them, you can load a piece of ammunition into it even if you lack a free hand.</li>
 
-        <li><strong>Bonus Attack.</strong> When you attack with a one-handed weapon, you can use a Bonus Action to attack with a hand crossbow you are holding.</li>
+        <li><strong>Firing in Melee.</strong> Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with crossbows.</li>
+
+        <li><strong>Dual Wielding.</strong> When you make the extra attack of the Light property, you can add your ability modifier to the damage of the extra attack if that attack is with a crossbow that has the Light property and you aren't already adding that modifier to the damage.</li>
     </ul>
 
 </div>
@@ -448,14 +469,16 @@
 
     <h3 id="crusher">Crusher</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Strength or Constitution score by 1, to a maximum of 20.</li>
 
-        <li><strong>Push.</strong> Once per turn when you hit a creature with an attack that deals Bludgeoning damage, you can move it a short distance to an unoccupied space.</li>
+        <li><strong>Push.</strong> Once per turn, when you hit a creature with an attack that deals Bludgeoning damage, you can move it 5 feet to an unoccupied space if the target is no more than one size larger than you.</li>
 
-        <li><strong>Critical Advantage.</strong> When you score a Critical Hit that deals Bludgeoning damage, attack rolls against that creature have Advantage until the start of your next turn.</li>
+        <li><strong>Enhanced Critical.</strong> When you score a Critical Hit that deals Bludgeoning damage to a creature, attack rolls against that creature have Advantage until the start of your next turn.</li>
     </ul>
 
 </div>
@@ -465,10 +488,14 @@
 
     <h3 id="defensive-duelist">Defensive Duelist</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 4+, Dexterity 13+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Parry.</strong> When a creature hits you with a melee attack while you are wielding a finesse weapon, you can use your Reaction to add your Proficiency Bonus to your AC against that attack.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Dexterity score by 1, to a maximum of 20.</li>
+
+        <li><strong>Parry.</strong> If you're holding a Finesse weapon and another creature hits you with a melee attack, you can take a Reaction to add your Proficiency Bonus to your Armor Class, potentially causing the attack to miss you. You gain this bonus to your AC against melee attacks until the start of your next turn.</li>
     </ul>
 
 </div>
@@ -478,14 +505,16 @@
 
     <h3 id="dual-wielder">Dual Wielder</h3>
 
+    <em>Prerequisite: Level 4+, Dexterity 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Dual Weapon Fighting.</strong> You can use Two-Weapon Fighting even when the one-handed melee weapons you are wielding aren’t Light.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Quick Draw.</strong> You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.</li>
+        <li><strong>Enhanced Dual Wielding.</strong> When you take the Attack action on your turn and attack with a weapon that has the Light property, you can make one extra attack as a Bonus Action later on the same turn with a different weapon, which must be a Melee weapon that lacks the Two-Handed property. You don't add your ability modifier to the extra attack's damage unless that modifier is negative.</li>
 
-        <li><strong>Bonus Damage.</strong> When you engage in Two-Weapon Fighting, you gain a bonus to damage.</li>
+        <li><strong>Quick Draw.</strong> You can draw or stow two weapons that lack the Two-Handed property when you would normally be able to draw or stow only one.</li>
     </ul>
 
 </div>
@@ -495,12 +524,16 @@
 
     <h3 id="durable">Durable</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Constitution score by 1, to a maximum of 20.</li>
 
-        <li><strong>Durable Recovery.</strong> When you roll Hit Dice to regain Hit Points, you regain additional Hit Points.</li>
+        <li><strong>Defy Death.</strong> You have Advantage on Death Saving Throws.</li>
+
+        <li><strong>Speedy Recovery.</strong> As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal</li>
     </ul>
 
 </div>
@@ -510,14 +543,16 @@
 
     <h3 id="elemental-adept">Elemental Adept</h3>
 
+    <em>Prerequisite: Level 4+, Spellcasting or Pact Magic Feature</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Element Choice.</strong> Choose one damage type: Acid, Cold, Fire, Lightning, or Thunder.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Ignore Resistance.</strong> Your spells ignore Resistance to the chosen damage type.</li>
+        <li><strong>Energy Mastery.</strong> Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. Spells you cast ignore Resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</li>
 
-        <li><strong>Damage Consistency.</strong> When you roll damage for a spell of that type, you can treat low rolls as higher results.</li>
+        <li><strong>Repeatable.</strong> You can take this feat more than once, but you must choose a different damage type each time for Energy Mastery.</li>
     </ul>
 
 </div>
@@ -527,14 +562,14 @@
 
     <h3 id="fey-touched">Fey Touched</h3>
 
-    <p>You gain the following benefits.</p>
+    <em>Prerequisite: Level 4+</em>
+
+    <p>Your exposure to the Feywild's magic grants you the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Fey Magic.</strong> You learn Misty Step and one additional spell of your choice from a specific list.</li>
-
-        <li><strong>Free Casting.</strong> You can cast each of these spells once without using a spell slot, and you regain that ability when you finish a Long Rest.</li>
+        <li><strong>Fey Magic.</strong> Choose one level 1 spell from the Divination or Enchantment school of magic. You always have that spell and the Misty Step spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.</li>
     </ul>
 
 </div>
@@ -543,12 +578,18 @@
 
     <h3 id="grappler">Grappler</h3>
 
+    <em>Prerequisite: Level 4+, Strength or Dexterity 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Advantage.</strong> You have Advantage on attack rolls against a creature Grappled by you.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Pin.</strong> You can attempt to restrain a creature you have Grappled.</li>
+        <li><strong>Punch and Grab.</strong> When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.</li>
+
+        <li><strong>Attack Advantage.</strong> You have Advantage on attack rolls against a creature Grappled by you.</li>
+
+        <li><strong>Fast Wrestler.</strong> You don’t have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller.</li>
     </ul>
 
 </div>
@@ -558,12 +599,16 @@
 
     <h3 id="great-weapon-master">Great Weapon Master</h3>
 
+    <em>Prerequisite: Level 4+, Strength 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Bonus Attack.</strong> When you score a Critical Hit or reduce a creature to 0 Hit Points, you can make an additional attack as a Bonus Action.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength score by 1, to a maximum of 20.</li>
 
-        <li><strong>Power Attack.</strong> Before making an attack with a Heavy weapon, you can take a penalty to the attack roll to deal extra damage on a hit.</li>
+        <li><strong>Heavy Weapon Mastery.</strong> When you hit a creature with a weapon that has the Heavy property as part of the Attack action on your turn, you can cause the weapon to deal extra damage to the target. The extra damage equals your Proficiency Bonus.</li>
+
+        <li><strong>Hew.</strong> Immediately after you score a Critical Hit with a Melee weapon or reduce a creature to 0 Hit Points with one, you can make one attack with the same weapon as a Bonus Action.</li>
     </ul>
 
 </div>
@@ -573,12 +618,14 @@
 
     <h3 id="heavily-armored">Heavily Armored</h3>
 
+    <em>Prerequisite: Level 4+, Medium Armor Training</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Ability Score Increase.</strong> Increase your Strength score by 1, to a maximum of 20.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Constitution or Strength score by 1, to a maximum of 20.</li>
 
-        <li><strong>Armor Training.</strong> You gain training with Heavy Armor.</li>
+        <li><strong>Armor Training.</strong> You gain training with Heavy armor.</li>
     </ul>
 
 </div>
@@ -588,12 +635,14 @@
 
     <h3 id="heavy-armor-master">Heavy Armor Master</h3>
 
+    <em>Prerequisite: Level 4+, Heavy Armor Training</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Ability Score Increase.</strong> Increase your Strength score by 1, to a maximum of 20.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Constitution or Strength score by 1, to a maximum of 20.</li>
 
-        <li><strong>Damage Reduction.</strong> While you are wearing Heavy Armor, damage from nonmagical attacks is reduced.</li>
+        <li><strong>Damage Reduction.</strong> When you're hit by an attack while you're wearing Heavy armor, any Bludgeoning, Piercing, and Slashing damage dealt to you by that attack is reduced by an amount equal to your Proficiency Bonus.</li>
     </ul>
 
 </div>
@@ -603,10 +652,14 @@
 
     <h3 id="inspiring-leader">Inspiring Leader</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 4+, Wisdom or Charisma 13+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Inspiring Speech.</strong> After spending time inspiring your allies, you can grant Temporary Hit Points to yourself and others.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Wisdom or Charisma score by 1, to a maximum of 20.</li>
+
+        <li><strong>Bolstering Performance.</strong> When you finish a Short or Long Rest, you can give an inspiring performance: a speech, song, or dance. When you do so, choose up to six allies (which can include yourself) within 30 feet of yourself who witness the performance. The chosen creatures each gain Temporary Hit Points equal to your character level plus the modifier of the ability you increased with this feat.</li>
     </ul>
 
 </div>
@@ -616,14 +669,16 @@
 
     <h3 id="keen-mind">Keen Mind</h3>
 
+    <em>Prerequisite: Level 4+, Intelligence 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Intelligence score by 1, to a maximum of 20.</li>
 
-        <li><strong>Perfect Recall.</strong> You can accurately recall anything you have seen or heard recently.</li>
+        <li><strong>Lore Knowledge.</strong> Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.</li>
 
-        <li><strong>Direction and Time.</strong> You always know which way is north and the number of hours left before the next sunrise or sunset.</li>
+        <li><strong>Quick Study.</strong> You can take the Study action as a Bonus Action.</li>
     </ul>
 
 </div>
@@ -632,12 +687,14 @@
 
     <h3 id="lightly-armored">Lightly Armored</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Armor Training.</strong> You gain training with Light Armor.</li>
+        <li><strong>Armor Training.</strong> You gain training with Light armor and Shields.</li>
     </ul>
 
 </div>
@@ -647,14 +704,16 @@
 
     <h3 id="mage-slayer">Mage Slayer</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Disrupt Casting.</strong> When a creature within your reach casts a spell, you can make a melee attack against it as a Reaction.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Resilience.</strong> You have Advantage on saving throws against spells cast by creatures within your reach.</li>
+        <li><strong>Concentration Breaker.</strong> When you damage a creature that is concentrating, it has Disadvantage on the saving throw it makes to maintain Concentration.</li>
 
-        <li><strong>Concentration Breaker.</strong> When you deal damage to a creature concentrating on a spell, it has Disadvantage on the saving throw to maintain concentration.</li>
+        <li><strong>Guarded Mind.</strong> If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can't use it again until you finish a Short or Long Rest.</li>
     </ul>
 
 </div>
@@ -664,10 +723,14 @@
 
     <h3 id="martial-weapon-training">Martial Weapon Training</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 4+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Weapon Proficiency.</strong> You gain proficiency with Martial Weapons.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
+
+        <li><strong>Weapon Proficiency.</strong> You gain proficiency with Martial weapons.</li>
     </ul>
 
 </div>
@@ -677,12 +740,14 @@
 
     <h3 id="medium-armor-master">Medium Armor Master</h3>
 
+    <em>Prerequisite: Level 4+, Medium Armor Training</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Dexterity Bonus.</strong> Wearing Medium Armor doesn’t impose a limit on the Dexterity bonus you can add to your Armor Class.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Stealth.</strong> Wearing Medium Armor doesn’t impose Disadvantage on Dexterity (Stealth) checks.</li>
+        <li><strong>Dexterous Wearer.</strong> While you're wearing Medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity score of 16 or higher.</li>
     </ul>
 
 </div>
@@ -692,12 +757,14 @@
 
     <h3 id="moderately-armored">Moderately Armored</h3>
 
+    <em>Prerequisite: Level 4+, Light Armor Training</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Armor Training.</strong> You gain training with Medium Armor and Shields.</li>
+        <li><strong>Armor Training.</strong> You gain training with Medium armor.</li>
     </ul>
 
 </div>
@@ -707,14 +774,18 @@
 
     <h3 id="mounted-combatant">Mounted Combatant</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Mounted Advantage.</strong> You have Advantage on melee attack rolls against creatures smaller than your mount.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength, Dexterity, or Wisdom score by 1, to a maximum of 20.</li>
 
-        <li><strong>Redirect Attack.</strong> You can force an attack that targets your mount to target you instead.</li>
+        <li><strong>Mounted Strike.</strong> While mounted, you have Advantage on attack rolls against any unmounted creature within 5 feet of your mount that is at least one size smaller than the mount.</li>
 
-        <li><strong>Evasion for Mount.</strong> Your mount gains improved protection against effects that allow saving throws for half damage.</li>
+        <li><strong>Leap Aside.</strong> If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails. For your mount to gain this benefit, you must be riding it, and neither of you can have the Incapacitated condition.</li>
+
+        <li><strong>Veer.</strong> While mounted, you can force an attack that hits your mount to hit you instead if you don't have the Incapacitated condition.</li>
     </ul>
 
 </div>
@@ -723,14 +794,16 @@
 
     <h3 id="observant">Observant</h3>
 
+    <em>Prerequisite: Level 4+, Intelligence or Wisdom 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Intelligence or Wisdom score by 1, to a maximum of 20.</li>
 
-        <li><strong>Keen Observation.</strong> You gain a bonus to your passive Perception and Investigation scores.</li>
+        <li><strong>Keen Observer.</strong> Choose one of the following skills: Insight, Investigation, or Perception. If you lack proficiency with the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it.</li>
 
-        <li><strong>Lip Reading.</strong> You can understand speech by reading lips if you can see the speaker’s mouth.</li>
+        <li><strong>Quick Search.</strong> You can take the Search action as a Bonus Action.</li>
     </ul>
 
 </div>
@@ -740,14 +813,16 @@
 
     <h3 id="piercer">Piercer</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity by 1, to a maximum of 20.</li>
 
-        <li><strong>Damage Reroll.</strong> Once per turn when you hit with an attack that deals Piercing damage, you can reroll one damage die.</li>
+        <li><strong>Puncture.</strong> Once per turn, when you hit a creature with an attack that deals Piercing damage, you can reroll one of the attack’s damage dice, and you must use the new roll.</li>
 
-        <li><strong>Critical Bonus.</strong> When you score a Critical Hit that deals Piercing damage, you roll one additional damage die.</li>
+        <li><strong>Enhanced Critical.</strong> When you score a Critical Hit that deals Piercing damage to a creature, you can roll one additional damage die when determining the extra Piercing damage the target takes.</li>
     </ul>
 
 </div>
@@ -757,14 +832,16 @@
 
     <h3 id="poisoner">Poisoner</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Poison Crafting.</strong> You can create potent poisons.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Dexterity or Intelligence score by 1, to a maximum of 20.</li>
 
-        <li><strong>Apply Poison.</strong> You can apply poison to a weapon or ammunition as a Bonus Action.</li>
+        <li><strong>Potent Poison.</strong> When you make a damage roll that deals Poison damage, it ignores Resistance to Poison damage.</li>
 
-        <li><strong>Ignore Resistance.</strong> Your poison ignores Resistance to Poison damage.</li>
+        <li><strong>Brew Poison.</strong> You gain proficiency with the Poisoner’s Kit. With 1 hour of work using such a kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your Proficiency Bonus. As a Bonus Action, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains its potency for 1 minute or until you deal damage with the poisoned item, whichever is shorter. When a creature takes damage from the poisoned item, that creature must succeed on a Constitution saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the Poisoned condition until the end of your next turn.</li>
     </ul>
 
 </div>
@@ -774,12 +851,16 @@
 
     <h3 id="polearm-master">Polearm Master</h3>
 
+    <em>Prerequisite: Level 4+, Strength or Dexterity 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Bonus Attack.</strong> When you take the Attack action with a qualifying weapon, you can make an additional attack as a Bonus Action.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Dexterity or Strength score by 1, to a maximum of 20.</li>
 
-        <li><strong>Opportunity Attack.</strong> When a creature enters your reach, you can make an Opportunity Attack against it.</li>
+        <li><strong>Pole Strike.</strong> Immediately after you take the Attack action and attack with a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can use a Bonus Action to make a melee attack with the opposite end of the weapon. The weapon deals Bludgeoning damage, and the weapon’s damage die for this attack is a d4.</li>
+
+        <li><strong>Reactive Strike.</strong> While you're holding a Quarterstaff, a Spear, or a weapon that has the Heavy and Reach properties, you can take a Reaction to make one melee attack against a creature that enters the reach you have with that weapon.</li>
     </ul>
 
 </div>
@@ -789,12 +870,14 @@
 
     <h3 id="resilient">Resilient</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 20.</li>
+        <li><strong>Ability Score Increase.</strong> Choose one ability in which you lack saving throw proficiency. Increase the chosen ability score by 1, to a maximum of 20.</li>
 
-        <li><strong>Saving Throw Proficiency.</strong> You gain proficiency in saving throws using the chosen ability.</li>
+        <li><strong>Saving Throw Proficiency.</strong> You gain saving throw proficiency with the chosen ability.</li>
     </ul>
 
 </div>
@@ -804,12 +887,16 @@
 
     <h3 id="ritual-caster">Ritual Caster</h3>
 
+    <em>Prerequisite: Level 4+, Intelligence, Wisdom, or Charisma 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Ritual Spells.</strong> You learn ritual spells from a chosen spell list.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Ritual Book.</strong> You keep a book containing your ritual spells and can add more to it.</li>
+        <li><strong>Ritual Spells.</strong> Choose a number of level 1 spells equal to your Proficiency Bonus that have the Ritual tag. You always have those spells prepared, and you can cast them with any spell slots you have. The spells’ spellcasting ability is the ability increased by this feat. Whenever your Proficiency Bonus increases thereafter, you can add an additional level 1 spell with the Ritual tag to the spells always prepared with this feature.</li>
+
+        <li><strong>Quick Ritual.</strong> With this benefit, you can cast a Ritual spell that you have prepared using its regular casting time rather than the extended time for a Ritual. Doing so doesn't require a spell slot. Once you cast the spell in this way, you can't use this benefit again until you finish a Long Rest.</li>
     </ul>
 
 </div>
@@ -818,14 +905,16 @@
 
     <h3 id="sentinel">Sentinel</h3>
 
+    <em>Prerequisite: Level 4+, Strength or Dexterity 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Stop Movement.</strong> When you hit a creature with an Opportunity Attack, its Speed becomes 0 for the rest of the turn.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Ignore Disengage.</strong> Creatures provoke Opportunity Attacks from you even if they take the Disengage action.</li>
+        <li><strong>Guardian.</strong> Immediately after a creature within 5 feet of you takes the Disengage action or hits a target other than you with an attack, you can make an Opportunity Attack against that creature.</li>
 
-        <li><strong>Protect Ally.</strong> When a creature within your reach attacks a target other than you, you can use your Reaction to make a melee attack against that creature.</li>
+        <li><strong>Halt.</strong> When you hit a creature with an Opportunity Attack, the creature’s Speed becomes 0 for the rest of the current turn.</li>
     </ul>
 
 </div>
@@ -835,14 +924,14 @@
 
     <h3 id="shadow-touched">Shadow Touched</h3>
 
-    <p>You gain the following benefits.</p>
+    <em>Prerequisite: Level 4+</em>
+
+    <p>Your exposure to the Shadowfell's magic grants you the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Shadow Magic.</strong> You learn Invisibility and one additional spell of your choice from a specific list.</li>
-
-        <li><strong>Free Casting.</strong> You can cast each of these spells once without using a spell slot, and you regain that ability when you finish a Long Rest.</li>
+        <li><strong>Shadow Magic.</strong> Choose one level 1 spell from the Illusion or Necromancy school of magic. You always have that spell and the Invisibility spell prepared. You can cast each of these spells without expending a spell slot. Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</li>
     </ul>
 
 </div>
@@ -852,14 +941,18 @@
 
     <h3 id="sharpshooter">Sharpshooter</h3>
 
+    <em>Prerequisite: Level 4+, Dexterity 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Long Range.</strong> Attacking at long range doesn’t impose Disadvantage on your ranged attack rolls.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Ignore Cover.</strong> Your ranged attacks ignore half and three-quarters cover.</li>
+        <li><strong>Bypass Cover.</strong> Your ranged attacks with weapons ignore Half Cover and Three-Quarters Cover.</li>
 
-        <li><strong>Power Shot.</strong> Before making a ranged attack, you can take a penalty to the attack roll to deal extra damage on a hit.</li>
+        <li><strong>Firing in Melee.</strong> Being within 5 feet of an enemy doesn’t impose Disadvantage on your attack rolls with Ranged weapons.</li>
+
+        <li><strong>Long Shots.</strong> Attacking at long range doesn't impose Disadvantage on your attack rolls with Ranged weapons.</li>
     </ul>
 
 </div>
@@ -869,14 +962,16 @@
 
     <h3 id="shield-master">Shield Master</h3>
 
+    <em>Prerequisite: Level 4+, Shield Training</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Shield Bash.</strong> After taking the Attack action, you can use a Bonus Action to shove a creature with your shield.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength score by 1, to a maximum of 20.</li>
 
-        <li><strong>Shield Defense.</strong> You can add your shield’s bonus to Dexterity saving throws against effects that target only you.</li>
+        <li><strong>Shield Bash.</strong> If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, you either push the target 5 feet from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns.</li>
 
-        <li><strong>Evasion.</strong> When you succeed on a Dexterity saving throw for half damage, you instead take no damage.</li>
+        <li><strong>Interpose Shield.</strong> If you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are holding a Shield.</li>
     </ul>
 
 </div>
@@ -886,6 +981,8 @@
 
     <h3 id="skill-expert">Skill Expert</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
@@ -893,7 +990,7 @@
 
         <li><strong>Skill Proficiency.</strong> You gain proficiency in one skill of your choice.</li>
 
-        <li><strong>Expertise.</strong> Choose one skill you have proficiency in; your Proficiency Bonus is doubled for checks using that skill.</li>
+        <li><strong>Expertise.</strong> Choose one skill in which you have proficiency but lack Expertise. You gain Expertise with that skill.</li>
     </ul>
 
 </div>
@@ -903,14 +1000,18 @@
 
     <h3 id="skulker">Skulker</h3>
 
+    <em>Prerequisite: Level 4+, Dexterity 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Hidden Sniper.</strong> You can attempt to Hide when lightly obscured.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Missed Shot.</strong> Making a ranged attack while hidden doesn’t reveal your position if you miss.</li>
+        <li><strong>Blindsight.</strong> ou have Blindsight with a range of 10 feet.</li>
 
-        <li><strong>Dim Light Vision.</strong> Dim light doesn’t impose Disadvantage on your Perception checks relying on sight.</li>
+        <li><strong>Fog of War.</strong> You exploit the distractions of battle, gaining Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat.</li>
+
+        <li><strong>Sniper.</strong> If you make an attack roll while hidden and the roll misses, making the attack roll doesn’t reveal your location.</li>
     </ul>
 
 </div>
@@ -919,14 +1020,16 @@
 
     <h3 id="slasher">Slasher</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
 
-        <li><strong>Slow.</strong> Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce its Speed.</li>
+        <li><strong>Hamstring.</strong> Once per turn when you hit a creature with an attack that deals Slashing damage, you can reduce the Speed of that creature by 10 feet until the start of your next turn.</li>
 
-        <li><strong>Critical Effect.</strong> When you score a Critical Hit that deals Slashing damage, the target has Disadvantage on its attack rolls for a duration.</li>
+        <li><strong>Enhanced Critical.</strong> When you score a Critical Hit that deals Slashing damage to a creature, it has Disadvantage on attack rolls until the start of your next turn.</li>
     </ul>
 
 </div>
@@ -936,14 +1039,18 @@
 
     <h3 id="speedy">Speedy</h3>
 
+    <em>Prerequisite: Level 4+, Dexterity or Constitution 13+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Speed Increase.</strong> Your Speed increases.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Dexterity or Constitution score by 1, to a maximum of 20.</li>
 
-        <li><strong>Difficult Terrain.</strong> Moving through difficult terrain costs you less movement.</li>
+        <li><strong>Speed Increase.</strong> Your Speed increases by 10 feet.</li>
 
-        <li><strong>Dash Mobility.</strong> You gain additional mobility benefits when you take the Dash action.</li>
+        <li><strong>Dash over Difficult Terrain.</strong> When you take the Dash action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of that turn.</li>
+
+        <li><strong>Agile Movement.</strong> Opportunity Attacks have Disadvantage against you.</li>
     </ul>
 
 </div>
@@ -953,14 +1060,18 @@
 
     <h3 id="spell-sniper">Spell Sniper</h3>
 
+    <em>Prerequisite: Level 4+, Spellcasting or Pact Magic Feature</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Cantrip.</strong> You learn one cantrip that requires an attack roll.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Extended Range.</strong> The range of your attack roll spells is doubled.</li>
+        <li><strong>Bypass Cover.</strong> Your attack rolls for spells ignore Half Cover and Three-Quarters Cover.</li>
 
-        <li><strong>Ignore Cover.</strong> Your spell attacks ignore half and three-quarters cover.</li>
+        <li><strong>Casting in Melee.</strong> Being within 5 feet of an enemy doesn’t impose Disadvantage on your attack rolls with spells.</li>
+
+        <li><strong>Increased Range.</strong> When you cast a spell that has a range of at least 10 feet and requires you to make an attack roll, you can increase the spell's range by 60 feet.</li>
     </ul>
 
 </div>
@@ -970,14 +1081,16 @@
 
     <h3 id="telekinetic">Telekinetic</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Telekinetic Power.</strong> You gain the ability to move objects or creatures with your mind.</li>
+        <li><strong>Minor Telekinesis.</strong> You learn the Mage Hand spell. You can cast it without Verbal or Somatic components, you can make the spectral hand Invisible, and its range and the distance it can be away from you both increase by 30 feet when you cast it. The spell’s spellcasting ability is the ability increased by this feat.</li>
 
-        <li><strong>Bonus Action Push.</strong> You can use a Bonus Action to push or pull a creature.</li>
+        <li><strong>Telekinetic Shove.</strong> As a Bonus Action, you can telekinetically shove one creature you can see within 30 feet of yourself. When you do so, the target must succeed on a Strength saving throw (DC 8 plus the ability modifier of the score increased by this feat and your Proficiency Bonus) or be moved 5 feet toward or away from you.</li>
     </ul>
 
 </div>
@@ -987,14 +1100,16 @@
 
     <h3 id="telepathic">Telepathic</h3>
 
+    <em>Prerequisite: Level 4+</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
         <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Telepathy.</strong> You can communicate telepathically with others within a certain range.</li>
+        <li><strong>Telepathic Utterance.</strong> You can speak telepathically to any creature you can see within 60 feet of yourself. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.</li>
 
-        <li><strong>Detect Thoughts.</strong> You can cast Detect Thoughts without using a spell slot, regaining the ability after a Long Rest.</li>
+        <li><strong>Detect Thoughts.</strong> You always have the Detect Thoughts spell prepared. You can cast it without a spell slot or spell components, and you must finish a Long Rest before you can cast it in this way again. You can also cast it using spell slots you have of the appropriate level. Your spellcasting ability for the spell is the ability increased by this feat.</li>
     </ul>
 
 </div>
@@ -1004,14 +1119,18 @@
 
     <h3 id="war-caster">War Caster</h3>
 
+    <em>Prerequisite: Level 4+, Spellcasting or Pact Magic Feature</em>
+
     <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Concentration.</strong> You have Advantage on Constitution saving throws that you make to maintain concentration on a spell.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
 
-        <li><strong>Somatic Components.</strong> You can perform somatic components of spells even when you have weapons or a shield in your hands.</li>
+        <li><strong>Concentration.</strong> You have Advantage on Constitution saving throws that you make to maintain Concentration.</li>
 
-        <li><strong>Opportunity Spell.</strong> When a creature provokes an Opportunity Attack from you, you can cast a spell instead of making a melee attack.</li>
+        <li><strong>Reactive Spell.</strong> When a creature provokes an Opportunity Attack from you by leaving your reach, you can take a Reaction to cast a spell at the creature rather than making an Opportunity Attack. The spell must have a casting time of one action and must target only that creature.</li>
+
+        <li><strong>Somatic Components.</strong> You can perform the Somatic components of spells even when you have weapons or a Shield in one or both hands.</li>
     </ul>
 
 </div>
@@ -1021,10 +1140,14 @@
 
     <h3 id="weapon-master">Weapon Master</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 4+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Weapon Proficiency.</strong> You gain proficiency with a selection of weapons of your choice.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 20.</li>
+
+        <li><strong>Mastery Property.</strong> Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible</li>
     </ul>
 
 </div>
@@ -1037,15 +1160,16 @@
     <h2>Fighting Style Feats</h2>
 
     <div class="feat-grid">
+
+
+
 <div class="feat-card">
 
     <h3 id="archery">Archery</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Ranged Precision.</strong> You gain a bonus to attack rolls you make with ranged weapons.</li>
-    </ul>
+    <p>You gain a +2 bonus to attack rolls you make with Ranged weapons.</p>
 
 </div>
 
@@ -1054,11 +1178,9 @@
 
     <h3 id="blind-fighting">Blind Fighting</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Blindsight.</strong> You have Blindsight with a limited range, allowing you to perceive creatures without relying on sight.</li>
-    </ul>
+    <p>You have Blindsight with a range of 10 feet.</p>
 
 </div>
 
@@ -1067,11 +1189,9 @@
 
     <h3 id="defense">Defense</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Armor Defense.</strong> While you are wearing armor, you gain a bonus to your Armor Class.</li>
-    </ul>
+    <p>While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.</p>
 
 </div>
 
@@ -1080,11 +1200,9 @@
 
     <h3 id="dueling">Dueling</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Single Weapon Fighting.</strong> When you are wielding a melee weapon in one hand and no other weapons, you gain a bonus to damage rolls.</li>
-    </ul>
+    <p>When you're holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
 
 </div>
 
@@ -1093,11 +1211,9 @@
 
     <h3 id="great-weapon-fighting">Great Weapon Fighting</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Damage Reroll.</strong> When you roll damage for a melee weapon wielded with two hands, you can reroll low damage dice.</li>
-    </ul>
+    <p>When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.</p>
 
 </div>
 
@@ -1106,11 +1222,9 @@
 
     <h3 id="interception">Interception</h3>
 
-    <p>You gain the following benefit.</p>
+     <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Damage Reduction.</strong> When a creature you can see hits another creature within your reach, you can use your Reaction to reduce the damage.</li>
-    </ul>
+    <p>When a creature you can see hits another creature within 5 feet of you with an attack roll, you can take a Reaction to reduce the damage dealt to the target by 1d10 plus your Proficiency Bonus. You must be holding a Shield or a Simple or Martial weapon to use this Reaction.</p>
 
 </div>
 
@@ -1119,11 +1233,9 @@
 
     <h3 id="protection">Protection</h3>
 
-    <p>You gain the following benefit.</p>
+     <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Shield Protection.</strong> When a creature you can see attacks a target other than you within your reach, you can use your Reaction to impose Disadvantage on the attack roll.</li>
-    </ul>
+    <p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a Reaction to interpose your Shield if you're holding one. You impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.</p>
 
 </div>
 
@@ -1132,13 +1244,9 @@
 
     <h3 id="thrown-weapon-fighting">Thrown Weapon Fighting</h3>
 
-    <p>You gain the following benefits.</p>
+    <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Draw Weapon.</strong> You can draw a thrown weapon as part of the attack you make with it.</li>
-
-        <li><strong>Damage Bonus.</strong> You gain a bonus to damage rolls with thrown weapons.</li>
-    </ul>
+    <p>When you hit with a ranged attack roll using a weapon that has the Thrown property, you gain a +2 bonus to the damage roll.</p>
 
 </div>
 
@@ -1147,11 +1255,9 @@
 
     <h3 id="two-weapon-fighting">Two Weapon Fighting</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Off-Hand Damage.</strong> When you engage in Two-Weapon Fighting, you can add your ability modifier to the damage of the extra attack.</li>
-    </ul>
+    <p>When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.</p>
 
 </div>
 
@@ -1160,17 +1266,20 @@
 
     <h3 id="unarmed-fighting">Unarmed Fighting</h3>
 
-    <p>You gain the following benefits.</p>
+    <em>Prerequisite: Fighting Style Feature</em>
 
-    <ul>
-        <li><strong>Unarmed Damage.</strong> Your unarmed strikes deal improved damage.</li>
+    <p>When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning damage equal to 1d6 plus your Strength modifier instead of the normal damage of an Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8.</p>
 
-        <li><strong>Grapple Damage.</strong> You can deal damage to a creature you are Grappling.</li>
-    </ul>
+    <p>At the start of each of your turns, you can deal 1d4 Bludgeoning damage to one creature Grappled by you.</p>
 
 </div>
     </div>
 </section>
+
+
+
+
+
 
 <!-- EPIC BOON FEATS -->
 <section>
@@ -1181,10 +1290,14 @@
 
     <h3 id="boon-of-combat-prowess">Boon of Combat Prowess</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Combat Mastery.</strong> Your attacks become more reliable, allowing you to turn missed attacks into hits under certain conditions.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Peerless Aim.</strong> When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn.</li>
     </ul>
 
 </div>
@@ -1194,10 +1307,14 @@
 
     <h3 id="boon-of-dimensional-travel">Boon of Dimensional Travel</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Teleportation.</strong> You can teleport a short distance as a Bonus Action.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Blink Steps.</strong> Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.</li>
     </ul>
 
 </div>
@@ -1207,10 +1324,17 @@
 
     <h3 id="boon-of-energy-resistance">Boon of Energy Resistance</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Energy Resistance.</strong> You gain Resistance to one or more damage types.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Energy Resistances.</strong> You gain Resistance to two of the following damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder. Whenever you finish a Long Rest, you can change your choices.</li>
+
+        <li><strong>Energy Redirection.</strong> When you take damage of one of the types chosen for the Energy Resistances
+benefit, you can take a Reaction to direct damage of the same type toward another creature you can see within 60 feet of yourself that isn’'t behind Total Cover. If you do so, that creature must succeed on a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or take damage equal to 2d12 plus your Constitution modifier.</li>
     </ul>
 
 </div>
@@ -1220,10 +1344,14 @@
 
     <h3 id="boon-of-fate">Boon of Fate</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Fate Manipulation.</strong> You can add or subtract a value from attack rolls, ability checks, or saving throws.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Improve Fate.</strong> When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can’t use it again until you roll Initiative or finish a Short or Long Rest.</li>
     </ul>
 
 </div>
@@ -1233,10 +1361,14 @@
 
     <h3 id="boon-of-fortitude">Boon of Fortitude</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Durability.</strong> Your Hit Point maximum increases significantly.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Fortified Health.</strong> Your Hit Point maximum increases by 40. In addition, whenever you regain Hit Points, you can regain additional Hit Points equal to your Constitution modifier. Once you've regained these additional Hit Points, you can't do so again until the start of your next turn.</li>
     </ul>
 
 </div>
@@ -1246,10 +1378,16 @@
 
     <h3 id="boon-of-irresistible-offense">Boon of Irresistible Offense</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Ignore Resistance.</strong> Your attacks ignore Resistance to damage.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Strength or Dexterity score by 1, to a maximum of 30.</li>
+
+        <li><strong>Overcome Defenses.</strong> The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.</li>
+
+        <li><strong>Overwhelming Strike.</strong> When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage’s type is the same as the attack’s type.</li>
     </ul>
 
 </div>
@@ -1259,10 +1397,16 @@
 
     <h3 id="boon-of-recovery">Boon of Recovery</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Rapid Healing.</strong> You regain Hit Points at the start of your turns under certain conditions.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Last Stand.</strong> When you would be reduced to 0 Hit Points, you can drop to 1 Hit Point instead and regain a number of Hit Points equal to half your Hit Point maximum. Once you use this benefit, you can't use it again until you finish a Long Rest.</li>
+
+        <li><strong>Recover Vitality.</strong> You have a pool of ten d10s. As a Bonus Action, you can expend dice from the pool, roll those dice, and regain a number of Hit Points equal to the roll’s total. You regain all the expended dice when you finish a Long Rest.</li>
     </ul>
 
 </div>
@@ -1272,10 +1416,16 @@
 
     <h3 id="boon-of-skill">Boon of Skill</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Skill Mastery.</strong> You gain proficiency and Expertise in additional skills.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>All-Around Adept.</strong> You gain proficiency in all skills.</li>
+
+        <li><strong>Expertise.</strong> Choose one skill in which you lack Expertise. You gain Expertise in that skill.</li>
     </ul>
 
 </div>
@@ -1285,10 +1435,16 @@
 
     <h3 id="boon-of-speed">Boon of Speed</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Increased Speed.</strong> Your Speed increases significantly, and you gain additional mobility benefits.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Escape Artist.</strong> As a Bonus Action, you can take the Disengage action, which also ends the Grappled condition on you.</li>
+
+        <li><strong>Quickness.</strong> Your Speed increases by 30 feet.</li>
     </ul>
 
 </div>
@@ -1298,10 +1454,14 @@
 
     <h3 id="boon-of-spell-recall">Boon of Spell Recall</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+, Spellcasting Feature</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Spell Recovery.</strong> You can regain expended spell slots under certain conditions.</li>
+        <li><strong>Ability Score Increase.</strong> Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.</li>
+
+        <li><strong>Free Casting.</strong> Whenever you cast a spell with a level 1-4 spell slot, roll 1d4. If the number you roll is the same as the slot’s level, the slot isn’t expended.</li>
     </ul>
 
 </div>
@@ -1311,10 +1471,16 @@
 
     <h3 id="boon-of-the-night-spirit">Boon of the Night Spirit</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Shadow Form.</strong> You gain abilities related to darkness, invisibility, or incorporeal movement.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Merge with Shadows.</strong> While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.</li>
+
+        <li><strong>Shadowy Form.</strong> While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.</li>
     </ul>
 
 </div>
@@ -1324,10 +1490,14 @@
 
     <h3 id="boon-of-truesight">Boon of Truesight</h3>
 
-    <p>You gain the following benefit.</p>
+    <em>Prerequisite: Level 19+</em>
+
+    <p>You gain the following benefits.</p>
 
     <ul>
-        <li><strong>Truesight.</strong> You gain the ability to perceive things as they truly are within a certain range.</li>
+        <li><strong>Ability Score Increase.</strong> Increase one ability score of your choice by 1, to a maximum of 30.</li>
+
+        <li><strong>Truesight.</strong> You have Truesight with a range of 60 feet.</li>
     </ul>
 
 </div>
