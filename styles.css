@@ -389,3 +389,169 @@ header {
 .tab {
     text-align: center;
 }
+
+
+.two-column {
+    display: grid;
+    grid-template-columns: 3fr 1.2fr;
+    gap: 2rem;
+}
+
+.right-column {
+    background-color: #f4f1ea;
+    padding: 1rem;
+    border-left: 3px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+
+.feature {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.feature:last-child {
+    border-bottom: none;
+}
+
+.feature {
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #ccc;
+}
+
+.feature:target {
+    background-color: #fff3cd;
+    transition: background-color 0.6s ease;
+}
+
+
+
+.feature.subclass {
+    min-height: 120px; /* keeps rows aligned even with uneven text */
+}
+
+.subclass-header-grid,
+.subclass-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.subclass-header {
+    font-weight: 700;
+    text-align: center;
+    padding: 0.75rem;
+    background: #e9e4d8;
+    border-radius: 6px;
+    border-bottom: 2px solid #ccc;
+}
+
+
+
+.subclass-level-title {
+    margin: 2rem 0 0.75rem;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.25rem;
+}
+
+.feature.subclass {
+    background: #fafafa;
+    padding: 0.75rem;
+    border-radius: 6px;
+    border-left: 3px solid #ccc;
+}
+
+.subclass-header-grid {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+    padding-top: 0.5rem;
+}
+
+
+
+.features-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+/* HEADER */
+.features-table th {
+    text-align: left;
+    padding: 0.6rem;
+    background-color: #e9e4d8;
+    border-bottom: 2px solid #ccc;
+    font-weight: 600;
+}
+
+/* CELLS */
+.features-table td {
+    padding: 0.5rem 0.6rem;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+
+/* ZEBRA STRIPING */
+.features-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* HOVER ROW */
+.features-table tbody tr:hover {
+    background-color: #f2efe6;
+}
+
+/* LEVEL COLUMN (make it pop slightly) */
+.features-table td:first-child {
+    font-weight: 600;
+    text-align: center;
+    width: 50px;
+}
+
+/* NUMERIC COLUMNS CENTERED */
+.features-table td:nth-child(2),
+.features-table td:nth-child(4),
+.features-table td:nth-child(5),
+.features-table td:nth-child(6) {
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* FEATURES COLUMN */
+.features-table td:nth-child(3) {
+    line-height: 1.4;
+}
+
+.features-table a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.features-table a:hover {
+    background-color: #ddd6c5;
+}
+
+
+.features-table a {
+    display: inline-block;
+    margin: 0.1rem 0.2rem 0.1rem 0;
+    padding: 0.15rem 0.4rem;
+    background: #f4f1ea;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.features-table a:hover {
+    background: #ddd6c5;
+}
