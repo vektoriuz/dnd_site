@@ -112,7 +112,7 @@ Sorcerers are rare. Some family lines produce exactly one Sorcerer in every gene
 	<em>Breathe the Magic of Dragons</em>
 	<p>Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons’ power. Or perhaps you handled a treasure taken from a dragon’s hoard that was steeped in draconic power. Or you might have a dragon for an ancestor.</p>
 
-        <h3>Wild Magic</h3>
+        <h3>Wild Magic Sorcery</h3>
 
 	<em>Unleash Chaotic Magic</em>
 	<p>Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.</p>
@@ -141,36 +141,450 @@ Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or y
                 <h2>Class Features</h2>
 
                 <!-- FEATURES TABLE -->
-                <div class="features-table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Level</th>
-                                <th>Proficiency Bonus</th>
-                                <th>Features</th>
-                                <th><!-- class-specific column --></th>
-                                <th><!-- class-specific column --></th>
-                                <th><!-- class-specific column --></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- Fill later -->
-                        </tbody>
-                    </table>
-                </div>
+<div class="features-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>Proficiency Bonus</th>
+                <th>Features</th>
+                <th>Sorcery Points</th>
+                <th>Cantrips</th>
+                <th>Prepared Spells</th>
+                <th>1st</th>
+                <th>2nd</th>
+                <th>3rd</th>
+                <th>4th</th>
+                <th>5th</th>
+                <th>6th</th>
+                <th>7th</th>
+                <th>8th</th>
+                <th>9th</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>+2</td>
+                <td>
+                    <a href="#spellcasting">Spellcasting</a>, 
+                    <a href="#innate-sorcery">Innate Sorcery</a>
+                </td>
+                <td>-</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>+2</td>
+                <td>
+                    <a href="#font-of-magic">Font of Magic</a>, 
+                    <a href="#metamagic">Metamagic</a>
+                </td>
+                <td>2</td>
+                <td>4</td>
+                <td>4</td>
+                <td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>+2</td>
+                <td>
+                    <a href="#sorcerer-subclass">Sorcerer Subclass</a>, 
+                    <a href="#subclass-features">Subclass Feature</a>
+                </td>
+                <td>3</td>
+                <td>4</td>
+                <td>6</td>
+                <td>4</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>+2</td>
+                <td>
+                    <a href="#ability-score-improvement">Ability Score Improvement</a>
+                </td>
+                <td>4</td>
+                <td>5</td>
+                <td>7</td>
+                <td>4</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>+3</td>
+                <td>
+                    <a href="#sorcerous-restoration">Sorcerous Restoration</a>
+                </td>
+                <td>5</td>
+                <td>5</td>
+                <td>9</td>
+                <td>4</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>+3</td>
+                <td>
+                    <a href="#subclass-features">Subclass Feature</a>
+                </td>
+                <td>6</td>
+                <td>5</td>
+                <td>10</td>
+                <td>4</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>+3</td>
+                <td>
+                    <a href="#sorcery-incarnate">Sorcery Incarnate</a>
+                </td>
+                <td>7</td>
+                <td>5</td>
+                <td>11</td>
+                <td>4</td><td>3</td><td>3</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>+3</td>
+                <td>
+                    <a href="#ability-score-improvement">Ability Score Improvement</a>
+                </td>
+                <td>8</td>
+                <td>5</td>
+                <td>12</td>
+                <td>4</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>+4</td>
+                <td>-</td>
+                <td>9</td>
+                <td>5</td>
+                <td>14</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>+4</td>
+                <td>
+                    <a href="#metamagic">Metamagic</a>
+                </td>
+                <td>10</td>
+                <td>6</td>
+                <td>15</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>+4</td>
+                <td>-</td>
+                <td>11</td>
+                <td>6</td>
+                <td>16</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>+4</td>
+                <td>
+                    <a href="#ability-score-improvement">Ability Score Improvement</a>
+                </td>
+                <td>12</td>
+                <td>6</td>
+                <td>16</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>+5</td>
+                <td>-</td>
+                <td>13</td>
+                <td>6</td>
+                <td>17</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>+5</td>
+                <td>
+                    <a href="#subclass-features">Subclass Feature</a>
+                </td>
+                <td>14</td>
+                <td>6</td>
+                <td>17</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>+5</td>
+                <td>-</td>
+                <td>15</td>
+                <td>6</td>
+                <td>18</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>+5</td>
+                <td>
+                    <a href="#ability-score-improvement">Ability Score Improvement</a>
+                </td>
+                <td>16</td>
+                <td>6</td>
+                <td>18</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>+6</td>
+                <td>
+                    <a href="#metamagic">Metamagic</a>
+                </td>
+                <td>17</td>
+                <td>6</td>
+                <td>19</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td>+6</td>
+                <td>
+                    <a href="#subclass-features">Subclass Feature</a>
+                </td>
+                <td>18</td>
+                <td>6</td>
+                <td>20</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+
+            <tr>
+                <td>19</td>
+                <td>+6</td>
+                <td>
+                    <a href="#epic-boon">Epic Boon</a>
+                </td>
+                <td>19</td>
+                <td>6</td>
+                <td>21</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>+6</td>
+                <td>
+                    <a href="#arcane-apotheosis">Arcane Apotheosis</a>
+                </td>
+                <td>20</td>
+                <td>6</td>
+                <td>22</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<p>As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.</p>
+
+
+    <details class="features-toggle">
+        <summary class="features-summary">Class Features - Details</summary>
+
+        <div class="features">
 
                 <!-- LEVEL BLOCKS -->
-                <!-- Example -->
-                <section class="level-block" id="level-1">
+<!-- ==================== LEVEL 1 ==================== -->
+<section class="level-block" id="sorcerer-level-1">
 
-                    <h3>Level 1</h3>
+    <h3>Level 1</h3>
 
-                    <div class="feature" id="">
-                        <h4></h4>
-                        <p></p>
-                    </div>
+    <div class="feature" id="spellcasting">
+        <h4>Spellcasting</h4>
+        <p>Drawing from your innate magic, you can cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class’s description.</p>
 
-                </section>
+        <p><strong>Cantrips.</strong> You know four Sorcerer cantrips of your choice. Light, Prestidigitation, Shocking Grasp, and Sorcerous Burst are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.</p>
+
+        <p>When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.</p>
+
+        <p><strong>Spell Slots.</strong> The Sorcerer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
+
+        <p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Sorcerer spells. Burning Hands and Detect Magic are recommended.</p>
+
+        <p>The number of spells on your list increases as you gain Sorcerer levels, as shown in the Prepared Spells column of the Sorcerer Features table. Whenever that number increases, choose additional Sorcerer spells until the number of spells on your list matches the number in the Sorcerer Features table. The chosen spells must be of a level for which you have spell slots. For example, if you’re a level 3 Sorcerer, your list of prepared spells can include six Sorcerer spells of level 1 or 2 in any combination.</p>
+
+        <p>If another Sorcerer feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Sorcerer spells for you.</p>
+
+        <p><strong>Changing Your Prepared Spells.</strong> Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.</p>
+
+        <p><strong>Spellcasting Ability.</strong> Charisma is your spellcasting ability for your Sorcerer spells.</p>
+
+        <p><strong>Spellcasting Focus.</strong> You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.</p>
+    </div>
+
+    <div class="feature" id="innate-sorcery">
+        <h4>Innate Sorcery</h4>
+        <p>An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:</p>
+
+        <ul>
+            <li>The spell save DC of your Sorcerer spells increases by 1.</li>
+            <li>You have Advantage on the attack rolls of Sorcerer spells you cast.</li>
+        </ul>
+
+        <p>You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.</p>
+    </div>
+
+</section>
+
+
+<!-- ==================== LEVEL 2 ==================== -->
+<section class="level-block" id="sorcerer-level-2">
+
+    <h3>Level 2</h3>
+
+    <div class="feature" id="font-of-magic">
+        <h4>Font of Magic</h4>
+        <p>You can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.</p>
+
+        <p>You have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can’t have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.</p>
+
+        <p>You can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.</p>
+
+        <p><strong>Converting Spell Slots to Sorcery Points.</strong> You can expend a spell slot to gain a number of Sorcery Points equal to the slot’s level (no action required).</p>
+
+        <p><strong>Creating Spell Slots.</strong> As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.</p>
+
+        <p>Any spell slot you create with this feature vanishes when you finish a Long Rest.</p>
+
+        <div class="features-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Spell Slot Level</th>
+                        <th>Sorcery Point Cost</th>
+                        <th>Min. Sorcerer Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>2</td><td>2</td></tr>
+                    <tr><td>2</td><td>3</td><td>3</td></tr>
+                    <tr><td>3</td><td>5</td><td>5</td></tr>
+                    <tr><td>4</td><td>6</td><td>7</td></tr>
+                    <tr><td>5</td><td>7</td><td>9</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="feature" id="metamagic">
+        <h4>Metamagic</h4>
+        <p>Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from “Metamagic Options” later in this class’s description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.</p>
+
+        <p>You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.</p>
+
+        <p>Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don’t know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17.</p>
+    </div>
+
+</section>
+
+
+<!-- ==================== LEVEL 3 ==================== -->
+<section class="level-block" id="sorcerer-level-3">
+
+    <h3>Level 3</h3>
+
+    <div class="feature" id="sorcerer-subclass">
+        <h4>Sorcerer Subclass</h4>
+        <p>You gain a Sorcerer subclass of your choice. The Aberrant Sorcery, Clockwork Sorcery, Draconic Sorcery, and Wild Magic Sorcery subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Sorcerer levels. For the rest of your career, you gain each of your subclass’s features that are of your Sorcerer level or lower.</p>
+    </div>
+
+</section>
+
+<!-- ==================== LEVEL 4 ==================== -->
+<section class="level-block" id="sorcerer-level-4">
+
+    <h3>Level 4</h3>
+
+    <div class="feature" id="ability-score-improvement">
+        <h4>Ability Score Improvement</h4>
+        <p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Sorcerer levels 8, 12, and 16.</p>
+    </div>
+
+</section>
+
+
+<!-- ==================== LEVEL 5 ==================== -->
+<section class="level-block" id="sorcerer-level-5">
+
+    <h3>Level 5</h3>
+
+    <div class="feature" id="sorcerous-restoration">
+        <h4>Sorcerous Restoration</h4>
+        <p>When you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Sorcerer level (round down). Once you use this feature, you can’t do so again until you finish a Long Rest.</p>
+    </div>
+
+</section>
+
+
+<!-- ==================== LEVEL 7 ==================== -->
+<section class="level-block" id="sorcerer-level-7">
+
+    <h3>Level 7</h3>
+
+    <div class="feature" id="sorcery-incarnate">
+        <h4>Sorcery Incarnate</h4>
+        <p>If you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.</p>
+
+        <p>In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.</p>
+    </div>
+
+</section>
+
+
+<!-- ==================== LEVEL 19 ==================== -->
+<section class="level-block" id="sorcerer-level-19">
+
+    <h3>Level 19</h3>
+
+    <div class="feature" id="epic-boon">
+        <h4>Epic Boon</h4>
+        <p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.</p>
+    </div>
+
+</section>
+
+
+<!-- ==================== LEVEL 20 ==================== -->
+<section class="level-block" id="sorcerer-level-20">
+
+    <h3>Level 20</h3>
+
+    <div class="feature" id="arcane-apotheosis">
+        <h4>Arcane Apotheosis</h4>
+        <p>While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.</p>
+    </div>
+
+</section>
+
+</div>
 
             </section>
 
@@ -302,44 +716,421 @@ Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or y
 
         <h2>Subclass Features</h2>
 
-        <!-- HEADER -->
-        <div class="subclass-header-grid">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+<section class="subclass-accordion">
+
+    <details class="subclass-item">
+        <summary class="subclass-summary">Draconic Sorcery</summary>
+        <div class="subclass-content">
+            <section class="subclass-section" id="draconic-bloodline">
+
+
+    <section class="level-block" id="draconic-level-3">
+
+        <h3>Level 3</h3>
+
+        <div class="feature" id="draconic-resilience">
+            <h4>Draconic Resilience</h4>
+            <p>The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.</p>
+
+            <p>Parts of you are also covered by dragon-like scales. While you aren’t wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.</p>
         </div>
 
-        <!-- LEVEL TEMPLATE -->
-        <section class="subclass-row" id="subclass-feature-3">
+        <div class="feature" id="draconic-spells">
+            <h4>Draconic Spells</h4>
+            <p>When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.</p>
 
-            <h3 class="subclass-level-title">Level 3</h3>
+            <div class="features-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sorcerer Level</th>
+                            <th>Spells</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>3</td><td>Alter Self, Chromatic Orb, Command, Dragon's Breath</td></tr>
+                        <tr><td>5</td><td>Fear, Fly</td></tr>
+                        <tr><td>7</td><td>Arcane Eye, Charm Monster</td></tr>
+                        <tr><td>9</td><td>Legend Lore, Summon Dragon</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-            <div class="subclass-grid">
+    </section>
 
-                <div class="feature subclass">
-                    <h4></h4>
-                    <p></p>
-                </div>
 
-                <div class="feature subclass">
-                    <h4></h4>
-                    <p></p>
-                </div>
+    <section class="level-block" id="draconic-level-6">
 
-                <div class="feature subclass">
-                    <h4></h4>
-                    <p></p>
-                </div>
+        <h3>Level 6</h3>
 
-                <div class="feature subclass">
-                    <h4></h4>
-                    <p></p>
-                </div>
+        <div class="feature" id="elemental-affinity">
+            <h4>Elemental Affinity</h4>
+            <p>Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.</p>
 
+            <p>You have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="draconic-level-14">
+
+        <h3>Level 14</h3>
+
+        <div class="feature" id="dragon-wings">
+            <h4>Dragon Wings</h4>
+            <p>As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.</p>
+
+            <p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="draconic-level-18">
+
+        <h3>Level 18</h3>
+
+        <div class="feature" id="dragon-companion">
+            <h4>Dragon Companion</h4>
+            <p>You can cast Summon Dragon without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.</p>
+
+            <p>Whenever you start casting the spell, you can modify it so that it doesn’t require Concentration. If you do so, the spell’s duration becomes 1 minute for that casting.</p>
+        </div>
+
+    </section>
+
+
+</section>
+        </div>
+    </details>
+
+    <details class="subclass-item">
+        <summary class="subclass-summary">Wild Magic Sorcery</summary>
+        <div class="subclass-content">
+            <section class="subclass-section" id="wild-magic">
+
+
+    <section class="level-block" id="wild-magic-level-3">
+
+        <h3>Level 3</h3>
+
+        <div class="feature" id="wild-magic-surge">
+            <h4>Wild Magic Surge</h4>
+            <p>Your spellcasting can unleash surges of untamed magic. Once per turn, you can roll 1d20 immediately after you cast a Sorcerer spell with a spell slot. If you roll a 20, roll on the Wild Magic Surge table to create a magical effect.</p>
+
+            <p>If the magical effect is a spell, it is too wild to be affected by your Metamagic.</p>
+        </div>
+
+        <div class="feature" id="tides-of-chaos">
+            <h4>Tides of Chaos</h4>
+            <p>You can manipulate chaos itself to give yourself Advantage on one D20 Test before you roll the d20. Once you do so, you must cast a Sorcerer spell with a spell slot or finish a Long Rest before you can use this feature again.</p>
+
+            <p>If you do cast a Sorcerer spell with a spell slot before you finish a Long Rest, you automatically roll on the Wild Magic Surge table.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="wild-magic-level-6">
+
+        <h3>Level 6</h3>
+
+        <div class="feature" id="bend-luck">
+            <h4>Bend Luck</h4>
+            <p>You have the ability to twist fate using your wild magic. Immediately after another creature you can see rolls the d20 for a D20 Test, you can take a Reaction and spend 1 Sorcery Point to roll 1d4 and apply the number rolled as a bonus or penalty (your choice) to the d20 roll.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="wild-magic-level-14">
+
+        <h3>Level 14</h3>
+
+        <div class="feature" id="controlled-chaos">
+            <h4>Controlled Chaos</h4>
+            <p>You gain a modicum of control over the surges of your wild magic. Whenever you roll on the Wild Magic Surge table, you can roll twice and use either number.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="wild-magic-level-18">
+
+        <h3>Level 18</h3>
+
+        <div class="feature" id="tamed-surge">
+            <h4>Tamed Surge</h4>
+            <p>Immediately after you cast a Sorcerer spell with a spell slot, you can create an effect of your choice from the Wild Magic Surge table instead of rolling on that table. You can choose any effect in the table except for the final row, and if the chosen effect involves a roll, you must make it.</p>
+
+            <p>Once you use this feature, you can’t do so again until you finish a Long Rest.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="wild-magic-table">
+
+        <h3>Wild Magic Surge</h3>
+
+        <div class="features-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>1d100</th>
+                        <th>Effect</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>01-04</td><td>Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls.</td></tr>
+                    <tr><td>05-08</td><td>A creature that is Friendly toward you appears in a random unoccupied space within 60 feet of you. The creature is under the DM’s control and disappears 1 minute later. Roll 1d4 to determine the creature: on a 1, a Modron Duodrone appears; on a 2, a Flumph appears; on a 3, a Modron Monodrone appears; on a 4, a Unicorn appears. See the Monster Manual for the creature’s stat block.</td></tr>
+                    <tr><td>09-12</td><td>For the next minute, you regain 5 Hit Points at the start of each of your turns.</td></tr>
+                    <tr><td>13-16</td><td>Creatures have Disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw.</td></tr>
+                    <tr><td>17-20</td><td>You are subjected to an effect that lasts for 1 minute unless its description says otherwise. Roll 1d8 to determine the effect: on a 1, you’re surrounded by faint, ethereal music only you and creatures within 5 feet of you can hear; on a 2, your size increases by one size category; on a 3, you grow a long beard made of feathers that remains until you sneeze, at which point the feathers explode from your face and vanish; on a 4, you must shout when you speak; on a 5, illusory butterflies flutter in the air within 10 feet of you; on a 6, an eye appears on your forehead, granting you Advantage on Wisdom (Perception) checks; on an 7, pink bubbles float out of your mouth whenever you speak; on an 8, your skin turns a vibrant shade of blue for 24 hours or until the effect is ended by a Remove Curse spell.</td></tr>
+                    <tr><td>21-24</td><td>For the next minute, all your spells with a casting time of an action have a casting time of a Bonus Action.</td></tr>
+                    <tr><td>25-28</td><td>You are transported to the Astral Plane until the end of your next turn. You then return to the space you previously occupied or the nearest unoccupied space if that space is occupied.</td></tr>
+                    <tr><td>29-32</td><td>The next time you cast a spell that deals damage within the next minute, don’t roll the spell’s damage dice for the damage. Instead use the highest number possible for each damage die.</td></tr>
+                    <tr><td>33-36</td><td>You have Resistance to all damage for the next minute.</td></tr>
+                    <tr><td>37-40</td><td>You turn into a potted plant until the start of your next turn. While you’re a plant, you have the Incapacitated condition and have Vulnerability to all damage. If you drop to 0 Hit Points, your pot breaks, and your form reverts.</td></tr>
+                    <tr><td>41-44</td><td>For the next minute, you can teleport up to 20 feet as a Bonus Action on each of your turns.</td></tr>
+                    <tr><td>45-48</td><td>You and up to three creatures you choose within 30 feet of you have the Invisible condition for 1 minute. This invisibility ends on a creature immediately after it makes an attack roll, deals damage, or casts a spell.</td></tr>
+                    <tr><td>49-52</td><td>A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile.</td></tr>
+                    <tr><td>53-56</td><td>You can take one extra action on this turn.</td></tr>
+                    <tr><td>57-60</td><td>You cast a random spell. If the spell normally requires Concentration, it doesn’t require Concentration in this case; the spell lasts for its full duration. Roll 1d10 to determine the spell: on a 1, Confusion; on a 2, Fireball; on a 3, Fog Cloud; on a 4, Fly (cast on a random creature within 60 feet of you), on a 5, Grease; on a 6, Levitate (cast on yourself); on a 7, Magic Missile (cast as a level 5 spell); on an 8, Mirror Image; on a 9, Polymorph (cast on yourself), and if you fail the saving throw, you turn into a Goat (see appendix B); on a 10, See Invisibility.</td></tr>
+                    <tr><td>61-64</td><td>For the next minute, any flammable, nonmagical object you touch that isn’t being worn or carried by another creature bursts into flame, takes 1d4 Fire damage, and is burning.</td></tr>
+                    <tr><td>65-68</td><td>If you die within the next hour, you immediately revive as if by the Reincarnate spell.</td></tr>
+                    <tr><td>69-72</td><td>You have the Frightened condition until the end of your next turn. The DM determines the source of your fear.</td></tr>
+                    <tr><td>73-76</td><td>You teleport up to 60 feet to an unoccupied space you can see.</td></tr>
+                    <tr><td>77-80</td><td>A random creature within 60 feet of you has the Poisoned condition for 1d4 hours.</td></tr>
+                    <tr><td>81-84</td><td>You radiate Bright Light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you has the Blinded condition until the end of its next turn.</td></tr>
+                    <tr><td>85-88</td><td>Up to three creatures of your choice that you can see within 30 feet of you take 1d10 Necrotic damage. You regain Hit Points equal to the sum of the Necrotic damage dealt.</td></tr>
+                    <tr><td>89-92</td><td>Up to three creatures of your choice that you can see within 30 feet of you take 4d10 Lightning damage.</td></tr>
+                    <tr><td>93-96</td><td>You and all creatures within 30 feet of you have Vulnerability to Piercing damage for the next minute.</td></tr>
+                    <tr><td>97-00</td><td>Roll 1d6: On a 1, you regain 2d10 Hit Points; on a 2, one ally of your choice within 300 feet of you regains 2d10 Hit Points; on a 3, you regain your lowest-level expended spell slot; on a 4, one ally of your choice within 300 feet of you regains their lowest-level expended spell slot; on a 5, you regain all your expended Sorcery Points; on a 6, all the effects of row 17–20 affect you simultaneously.</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+
+</section>
+        </div>
+    </details>
+
+    <details class="subclass-item">
+        <summary class="subclass-summary">Clockwork Sorcery</summary>
+        <div class="subclass-content">
+            <section class="subclass-section" id="clockwork-soul">
+
+
+    <section class="level-block" id="clockwork-level-3">
+
+        <h3>Level 3</h3>
+
+        <div class="feature" id="clockwork-spells">
+            <h4>Clockwork Spells</h4>
+            <p>When you reach a Sorcerer level specified in the Clockwork Spells table, you thereafter always have the listed spells prepared.</p>
+
+            <div class="features-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sorcerer Level</th>
+                            <th>Spells</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>3</td><td>Aid, Alarm, Lesser Restoration, Protection from Evil and Good</td></tr>
+                        <tr><td>5</td><td>Dispel Magic, Protection from Energy</td></tr>
+                        <tr><td>7</td><td>Freedom of Movement, Summon Construct</td></tr>
+                        <tr><td>9</td><td>Greater Restoration, Wall of Force</td></tr>
+                    </tbody>
+                </table>
             </div>
 
-        </section>
+            <p>In addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your Sorcerer spells.</p>
+
+            <div class="features-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>1d6</th>
+                            <th>Manifestation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>Spectral cogwheels hover behind you.</td></tr>
+                        <tr><td>2</td><td>The hands of a clock spin in your eyes.</td></tr>
+                        <tr><td>3</td><td>Your skin glows with a brassy sheen.</td></tr>
+                        <tr><td>4</td><td>Floating equations and geometric objects overlay your body.</td></tr>
+                        <tr><td>5</td><td>Your Spellcasting Focus temporarily takes the form of a Tiny clockwork mechanism.</td></tr>
+                        <tr><td>6</td><td>The ticking of gears or ringing of a clock can be heard by you and those affected by your magic.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="feature" id="restore-balance">
+            <h4>Restore Balance</h4>
+            <p>Your connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of yourself is about to roll a d20 with Advantage or Disadvantage, you can take a Reaction to prevent the roll from being affected by Advantage and Disadvantage.</p>
+
+            <p>You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="clockwork-level-6">
+
+        <h3>Level 6</h3>
+
+        <div class="feature" id="bastion-of-law">
+            <h4>Bastion of Law</h4>
+            <p>You can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As a Magic action, you can expend 1 to 5 Sorcery Points to create a magical ward around yourself or another creature you can see within 30 feet of yourself. The ward is represented by a number of d8s equal to the number of Sorcery Points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.</p>
+
+            <p>The ward lasts until you finish a Long Rest or until you use this feature again.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="clockwork-level-14">
+
+        <h3>Level 14</h3>
+
+        <div class="feature" id="trance-of-order">
+            <h4>Trance of Order</h4>
+            <p>You gain the ability to align your consciousness with the endless calculations of Mechanus. As a Bonus Action, you can enter this state for 1 minute. For the duration, attack rolls against you can’t benefit from Advantage, and whenever you make a D20 Test, you can treat a roll of 9 or lower on the d20 as a 10.</p>
+
+            <p>Once you use this feature, you can’t use it again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="clockwork-level-18">
+
+        <h3>Level 18</h3>
+
+        <div class="feature" id="clockwork-cavalcade">
+            <h4>Clockwork Cavalcade</h4>
+            <p>You momentarily summon spirits of order to expunge disorder around you. As a Magic action, you summon the spirits in a 30-foot Cube originating from you. The spirits look like modrons or other Constructs of your choice. The spirits are intangible and invulnerable, and they create the effects below within the Cube before vanishing. Once you use this action, you can’t use it again until you finish a Long Rest unless you spend 7 Sorcery Points (no action required) to restore your use of it.</p>
+
+            <p><strong>Heal.</strong> The spirits restore up to 100 Hit Points, divided as you choose among any number of creatures of your choice in the Cube.</p>
+
+            <p><strong>Repair.</strong> Any damaged objects entirely in the Cube are repaired instantly.</p>
+
+            <p><strong>Dispel.</strong> Every spell of level 6 and lower ends on creatures and objects of your choice in the Cube.</p>
+        </div>
+
+    </section>
+
+
+</section>
+        </div>
+    </details>
+
+    <details class="subclass-item">
+        <summary class="subclass-summary">Aberrant Sorcery</summary>
+        <div class="subclass-content">
+            <section class="subclass-section" id="aberrant-mind">
+
+
+    <section class="level-block" id="aberrant-level-3">
+
+        <h3>Level 3</h3>
+
+        <div class="feature" id="psionic-spells">
+            <h4>Psionic Spells</h4>
+            <p>When you reach a Sorcerer level specified in the Psionic Spells table, you thereafter always have the listed spells prepared.</p>
+
+            <div class="features-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sorcerer Level</th>
+                            <th>Spells</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>3</td><td>Arms of Hadar, Calm Emotions, Detect Thoughts, Dissonant Whispers, Mind Sliver</td></tr>
+                        <tr><td>5</td><td>Hunger of Hadar, Sending</td></tr>
+                        <tr><td>7</td><td>Evard's Black Tentacles, Summon Aberration</td></tr>
+                        <tr><td>9</td><td>Rary's Telepathic Bond, Telekinesis</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="feature" id="telepathic-speech">
+            <h4>Telepathic Speech</h4>
+            <p>You can form a telepathic connection between your mind and the mind of another. As a Bonus Action, choose one creature you can see within 30 feet of yourself. You and the chosen creature can communicate telepathically with each other while the two of you are within a number of miles of each other equal to your Charisma modifier (minimum of 1 mile). To understand each other, you each must mentally use a language the other knows.</p>
+
+            <p>The telepathic connection lasts for a number of minutes equal to your Sorcerer level. It ends early if you use this ability to form a connection with a different creature.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="aberrant-level-6">
+
+        <h3>Level 6</h3>
+
+        <div class="feature" id="psionic-sorcery">
+            <h4>Psionic Sorcery</h4>
+            <p>When you cast any level 1+ spell from your Psionic Spells feature, you can cast it by expending a spell slot as normal or by spending a number of Sorcery Points equal to the spell’s level. If you cast the spell using Sorcery Points, it requires no Verbal or Somatic components, and it requires no Material components unless they are consumed by the spell or have a cost specified in it.</p>
+        </div>
+
+        <div class="feature" id="psychic-defenses">
+            <h4>Psychic Defenses</h4>
+            <p>You have Resistance to Psychic damage, and you have Advantage on saving throws to avoid or end the Charmed or Frightened condition.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="aberrant-level-14">
+
+        <h3>Level 14</h3>
+
+        <div class="feature" id="revelation-in-flesh">
+            <h4>Revelation in Flesh</h4>
+            <p>You can unleash the aberrant truth hidden within yourself. As a Bonus Action, you can spend 1 Sorcery Point or more to magically alter your body for 10 minutes. For each Sorcery Point you spend, you gain one of the following benefits of your choice, the effects of which last until the alteration ends.</p>
+
+            <p><strong>Aquatic Adaptation.</strong> You gain a Swim Speed equal to twice your Speed, and you can breathe underwater. Gills grow from your neck or flare behind your ears, and your fingers become webbed or you grow wriggling cilia.</p>
+
+            <p><strong>Glistening Flight.</strong> You gain a Fly Speed equal to your Speed, and you can hover. As you fly, your skin glistens with mucus or otherworldly light.</p>
+
+            <p><strong>See the Invisible.</strong> You can see any Invisible creature within 60 feet of yourself that isn’t behind Total Cover. Your eyes also turn black or become writhing sensory tendrils.</p>
+
+            <p><strong>Wormlike Movement.</strong> Your body, along with any equipment you are wearing or carrying, becomes slimy and pliable. You can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the Grappled condition.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="aberrant-level-18">
+
+        <h3>Level 18</h3>
+
+        <div class="feature" id="warping-implosion">
+            <h4>Warping Implosion</h4>
+            <p>You can unleash a space-warping anomaly. As a Magic action, you teleport to an unoccupied space you can see within 120 feet of yourself. Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength saving throw against your spell save DC. On a failed save, a creature takes 3d10 Force damage and is pulled straight toward the space you left, ending in an unoccupied space as close to your former space as possible. On a successful save, the creature takes half as much damage only.</p>
+
+            <p>Once you use this feature, you can’t do so again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.</p>
+        </div>
+
+    </section>
+
+
+</section>
+        </div>
+    </details>
+
+</section>
 
     </section>
 

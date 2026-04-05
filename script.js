@@ -26,3 +26,25 @@ regions.forEach(region => {
     });
 
 });
+
+
+document.querySelectorAll('.tab-button').forEach(button => {
+    button.addEventListener('click', () => {
+
+        const target = button.dataset.tab;
+
+        // Remove active from all buttons
+        document.querySelectorAll('.tab-button')
+            .forEach(btn => btn.classList.remove('active'));
+
+        // Hide all content
+        document.querySelectorAll('.tab-content')
+            .forEach(content => content.classList.remove('active'));
+
+        // Activate clicked button
+        button.classList.add('active');
+
+        // Show correct content
+        document.getElementById(target).classList.add('active');
+    });
+});

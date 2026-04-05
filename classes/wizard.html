@@ -116,15 +116,15 @@ But the lure of knowledge calls even the most unadventurous Wizards from the saf
 	<em>Create Explosive Elemental Effects</em>
 	<p>Your studies focus on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast armies from afar. Others use their power to protect others, while some seek their own gain.</p>
 
-        <h3>Illusionist</h3>
-
-	<em>Weave Subtle Spells of Deception</em>
-	<p>You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.</p>
-
         <h3>Abjurer</h3>
 
 	<em>Shield Companions and Banish Foes</em>
 	<p>Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide against a variety of hostile magic and other attacks.</p>
+
+        <h3>Illusionist</h3>
+
+	<em>Weave Subtle Spells of Deception</em>
+	<p>You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.</p>
 
         <h3>Diviner</h3>
 
@@ -141,36 +141,397 @@ But the lure of knowledge calls even the most unadventurous Wizards from the saf
                 <h2>Class Features</h2>
 
                 <!-- FEATURES TABLE -->
-                <div class="features-table">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Level</th>
-                                <th>Proficiency Bonus</th>
-                                <th>Features</th>
-                                <th><!-- class-specific column --></th>
-                                <th><!-- class-specific column --></th>
-                                <th><!-- class-specific column --></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <!-- Fill later -->
-                        </tbody>
-                    </table>
-                </div>
+<div class="features-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Level</th>
+                <th>Proficiency Bonus</th>
+                <th>Features</th>
+                <th>Cantrips</th>
+                <th>Prepared Spells</th>
+                <th>1st</th>
+                <th>2nd</th>
+                <th>3rd</th>
+                <th>4th</th>
+                <th>5th</th>
+                <th>6th</th>
+                <th>7th</th>
+                <th>8th</th>
+                <th>9th</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>+2</td>
+                <td>
+                    <a href="#spellcasting">Spellcasting</a>, 
+                    <a href="#ritual-adept">Ritual Adept</a>, 
+                    <a href="#arcane-recovery">Arcane Recovery</a>
+                </td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>+2</td>
+                <td>
+                    <a href="#scholar">Scholar</a>
+                </td>
+                <td>3</td>
+                <td>5</td>
+                <td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>+2</td>
+                <td>
+                    <a href="#wizard-subclass">Wizard Subclass</a>, 
+                    <a href="#subclass-features">Subclass Feature</a>
+                </td>
+                <td>3</td>
+                <td>6</td>
+                <td>4</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>+2</td>
+                <td>
+                    <a href="#ability-score-improvement">Ability Score Improvement</a>
+                </td>
+                <td>4</td>
+                <td>7</td>
+                <td>4</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>+3</td>
+                <td>
+                    <a href="#memorize-spell">Memorize Spell</a>
+                </td>
+                <td>4</td>
+                <td>9</td>
+                <td>4</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>+3</td>
+                <td>
+                    <a href="#subclass-features">Subclass Feature</a>
+                </td>
+                <td>4</td>
+                <td>10</td>
+                <td>4</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>+3</td>
+                <td>-</td>
+                <td>4</td>
+                <td>11</td>
+                <td>4</td><td>3</td><td>3</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>+3</td>
+                <td>
+                    <a href="#ability-score-improvement">Ability Score Improvement</a>
+                </td>
+                <td>4</td>
+                <td>12</td>
+                <td>4</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>+4</td>
+                <td>-</td>
+                <td>4</td>
+                <td>14</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>+4</td>
+                <td>
+                    <a href="#subclass-features">Subclass Feature</a>
+                </td>
+                <td>5</td>
+                <td>15</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+                <td>+4</td>
+                <td>-</td>
+                <td>5</td>
+                <td>16</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>+4</td>
+                <td>
+                    <a href="#ability-score-improvement">Ability Score Improvement</a>
+                </td>
+                <td>5</td>
+                <td>16</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>13</td>
+                <td>+5</td>
+                <td>-</td>
+                <td>5</td>
+                <td>17</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>14</td>
+                <td>+5</td>
+                <td>
+                    <a href="#subclass-features">Subclass Feature</a>
+                </td>
+                <td>5</td>
+                <td>18</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>-</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>15</td>
+                <td>+5</td>
+                <td>-</td>
+                <td>5</td>
+                <td>19</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>16</td>
+                <td>+5</td>
+                <td>
+                    <a href="#ability-score-improvement">Ability Score Improvement</a>
+                </td>
+                <td>5</td>
+                <td>21</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>-</td>
+            </tr>
+
+            <tr>
+                <td>17</td>
+                <td>+6</td>
+                <td>-</td>
+                <td>5</td>
+                <td>22</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+
+            <tr>
+                <td>18</td>
+                <td>+6</td>
+                <td>
+                    <a href="#spell-mastery">Spell Mastery</a>
+                </td>
+                <td>5</td>
+                <td>23</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+
+            <tr>
+                <td>19</td>
+                <td>+6</td>
+                <td>
+                    <a href="#epic-boon">Epic Boon</a>
+                </td>
+                <td>5</td>
+                <td>24</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td>
+            </tr>
+
+            <tr>
+                <td>20</td>
+                <td>+6</td>
+                <td>
+                    <a href="#signature-spells">Signature Spells</a>
+                </td>
+                <td>5</td>
+                <td>25</td>
+                <td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<p>As a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.</p>
+
+
+    <details class="features-toggle">
+        <summary class="features-summary">Class Features - Details</summary>
+
+        <div class="features">
 
                 <!-- LEVEL BLOCKS -->
-                <!-- Example -->
-                <section class="level-block" id="level-1">
+<!-- ==================== LEVEL 1 ==================== -->
+<section class="level-block" id="wizard-level-1">
 
-                    <h3>Level 1</h3>
+    <h3>Level 1</h3>
 
-                    <div class="feature" id="">
-                        <h4></h4>
-                        <p></p>
-                    </div>
+    <div class="feature" id="spellcasting">
+        <h4>Spellcasting</h4>
+        <p>As a student of arcane magic, you have learned to cast spells. See chapter 7 for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class’s description.</p>
 
-                </section>
+        <p><strong>Cantrips.</strong> You know three Wizard cantrips of your choice. Light, Mage Hand, and Ray of Frost are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p>
+
+        <p>When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.</p>
+
+        <p><strong>Spellbook.</strong> Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting Identify. You determine the book’s appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.</p>
+
+        <p>The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. Detect Magic, Feather Fall, Mage Armor, Magic Missile, Sleep, and Thunderwave are recommended.</p>
+
+        <p>Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.</p>
+
+        <p><strong>Spell Slots.</strong> The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p>
+
+        <p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.</p>
+
+        <p>The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.</p>
+
+        <p>If another Wizard feature gives you spells that you always have prepared, those spells don’t count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.</p>
+
+        <p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook.</p>
+
+        <p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Wizard spells.</p>
+
+        <p><strong>Spellcasting Focus.</strong> You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.</p>
+
+        <p><strong>Expanding and Replacing a Spellbook.</strong></p>
+
+        <p>The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.</p>
+
+        <p><strong>Copying a Spell into the Book.</strong> When you find a level 1+ Wizard spell, you can copy it into your spellbook if it’s of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50GP. Afterward you can prepare the spell like the other spells in your spellbook.</p>
+
+        <p><strong>Copying the Book.</strong> You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p>
+
+        <p>If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p>
+    </div>
+
+    <div class="feature" id="ritual-adept">
+        <h4>Ritual Adept</h4>
+        <p>You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn’t have the spell prepared, but you must read from the book to cast a spell in this way.</p>
+    </div>
+
+    <div class="feature" id="arcane-recovery">
+        <h4>Arcane Recovery</h4>
+        <p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels’ worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p>
+
+        <p>Once you use this feature, you can't do so again until you finish a Long Rest.</p>
+    </div>
+
+</section>
+
+<!-- ==================== LEVEL 2 ==================== -->
+<section class="level-block" id="wizard-level-2">
+
+    <h3>Level 2</h3>
+
+    <div class="feature" id="scholar">
+        <h4>Scholar</h4>
+        <p>While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Investigation, Medicine, Nature, or Religion. You have Expertise in the chosen skill.</p>
+    </div>
+
+</section>
+
+<!-- ==================== LEVEL 3 ==================== -->
+<section class="level-block" id="wizard-level-3">
+
+    <h3>Level 3</h3>
+
+    <div class="feature" id="wizard-subclass">
+        <h4>Arcane Tradition</h4>
+        <p>You gain a Wizard subclass of your choice. The Abjurer, Diviner, Evoker, and Illusionist subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass’s features that are of your Wizard level or lower.</p>
+    </div>
+
+</section>
+
+<!-- ==================== LEVEL 4 ==================== -->
+<section class="level-block" id="wizard-level-4">
+
+    <h3>Level 4</h3>
+
+    <div class="feature" id="ability-score-improvement">
+        <h4>Ability Score Improvement</h4>
+        <p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16.</p>
+    </div>
+
+</section>
+
+<!-- ==================== LEVEL 5 ==================== -->
+<section class="level-block" id="wizard-level-5">
+
+    <h3>Level 5</h3>
+
+    <div class="feature" id="memorize-spell">
+        <h4>Memorize Spell</h4>
+        <p>Whenever you finish a Short Rest, you can study your spellbook and replace one of the level 1+ Wizard spells you have prepared for your Spellcasting feature with another level 1+ spell from the book.</p>
+    </div>
+
+</section>
+
+<!-- ==================== LEVEL 18 ==================== -->
+<section class="level-block" id="wizard-level-18">
+
+    <h3>Level 18</h3>
+
+    <div class="feature" id="spell-mastery">
+        <h4>Spell Mastery</h4>
+        <p>You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell in your spellbook that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. To cast either spell at a higher level, you must expend a spell slot.</p>
+
+        <p>Whenever you finish a Long Rest, you can study your spellbook and replace one of those spells with an eligible spell of the same level from the book.</p>
+    </div>
+
+</section>
+
+<!-- ==================== LEVEL 19 ==================== -->
+<section class="level-block" id="wizard-level-19">
+
+    <h3>Level 19</h3>
+
+    <div class="feature" id="epic-boon">
+        <h4>Epic Boon</h4>
+        <p>You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended.</p>
+    </div>
+
+</section>
+
+<!-- ==================== LEVEL 20 ==================== -->
+<section class="level-block" id="wizard-level-20">
+
+    <h3>Level 20</h3>
+
+    <div class="feature" id="signature-spells">
+        <h4>Signature Spells</h4>
+        <p>Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't cast them in this way again until you finish a Short or Long Rest. To cast either spell at a higher level, you must expend a spell slot.</p>
+    </div>
+
+</section>
+
+</div>
 
             </section>
 
@@ -296,49 +657,287 @@ But the lure of knowledge calls even the most unadventurous Wizards from the saf
     </div>
 
 
+
+
+
+
+
     <!-- SUBCLASS FEATURES (FULL WIDTH) -->
     <section id="subclass-features">
 
         <h2>Subclass Features</h2>
 
-        <!-- HEADER -->
-        <div class="subclass-header-grid">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+<section class="subclass-accordion">
+
+    <details class="subclass-item">
+        <summary class="subclass-summary">Evoker</summary>
+        <div class="subclass-content">
+            <section class="subclass-section" id="school-of-evocation">
+
+
+    <section class="level-block" id="evocation-level-3">
+
+        <h3>Level 3</h3>
+
+        <div class="feature" id="evocation-savant">
+            <h4>Evocation Savant</h4>
+            <p>Choose two Evocation spells of level 2 or lower and add them to your spellbook for free.</p>
+            <p>Whenever you gain access to a new spell slot level, you can add one Evocation spell of that level to your spellbook for free.</p>
         </div>
 
-        <!-- LEVEL TEMPLATE -->
-        <section class="subclass-row" id="subclass-feature-3">
+        <div class="feature" id="potent-cantrip">
+            <h4>Potent Cantrip</h4>
+            <p>When a cantrip misses or a target succeeds on its save, it still takes half damage (if any), but no additional effects.</p>
+        </div>
 
-            <h3 class="subclass-level-title">Level 3</h3>
+    </section>
 
-            <div class="subclass-grid">
 
-                <div class="feature subclass">
-                    <h4></h4>
-                    <p></p>
-                </div>
+    <section class="level-block" id="evocation-level-6">
 
-                <div class="feature subclass">
-                    <h4></h4>
-                    <p></p>
-                </div>
+        <h3>Level 6</h3>
 
-                <div class="feature subclass">
-                    <h4></h4>
-                    <p></p>
-                </div>
+        <div class="feature" id="sculpt-spells">
+            <h4>Sculpt Spells</h4>
+            <p>When you cast an Evocation spell, you can choose creatures equal to 1 + the spell’s level to automatically succeed on saves and take no damage on a success.</p>
+        </div>
 
-                <div class="feature subclass">
-                    <h4></h4>
-                    <p></p>
-                </div>
+    </section>
 
-            </div>
 
-        </section>
+    <section class="level-block" id="evocation-level-10">
+
+        <h3>Level 10</h3>
+
+        <div class="feature" id="empowered-evocation">
+            <h4>Empowered Evocation</h4>
+            <p>Add your Intelligence modifier to one damage roll of your Evocation spells.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="evocation-level-14">
+
+        <h3>Level 14</h3>
+
+        <div class="feature" id="overchannel">
+            <h4>Overchannel</h4>
+            <p>When casting a level 1–5 spell that deals damage, you can deal maximum damage.</p>
+            <p>Repeated uses before a Long Rest deal increasing Necrotic damage (2d12 per spell level, +1d12 each additional use).</p>
+        </div>
+
+    </section>
+
+
+</section>
+        </div>
+    </details>
+
+    <details class="subclass-item">
+        <summary class="subclass-summary">Abjurer</summary>
+        <div class="subclass-content">
+            <section class="subclass-section" id="school-of-abjuration">
+
+
+    <section class="level-block" id="abjuration-level-3">
+
+        <h3>Level 3</h3>
+
+        <div class="feature" id="abjuration-savant">
+            <h4>Abjuration Savant</h4>
+            <p>Choose two Abjuration spells of level 2 or lower and add them to your spellbook for free.</p>
+            <p>You also gain one free Abjuration spell when unlocking new spell levels.</p>
+        </div>
+
+        <div class="feature" id="arcane-ward">
+            <h4>Arcane Ward</h4>
+            <p>When you cast an Abjuration spell, you create a magical ward with HP equal to twice your Wizard level + Int modifier.</p>
+            <p>The ward absorbs damage first and can be restored by casting Abjuration spells or expending spell slots.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="abjuration-level-6">
+
+        <h3>Level 6</h3>
+
+        <div class="feature" id="projected-ward">
+            <h4>Projected Ward</h4>
+            <p>As a Reaction, your Arcane Ward can absorb damage for a creature within 30 feet.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="abjuration-level-10">
+
+        <h3>Level 10</h3>
+
+        <div class="feature" id="spell-breaker">
+            <h4>Spell Breaker</h4>
+            <p>You always have Counterspell and Dispel Magic prepared.</p>
+            <p>Dispel Magic can be cast as a Bonus Action and gains your Proficiency Bonus to its check.</p>
+            <p>Spell slots are not expended if these spells fail.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="abjuration-level-14">
+
+        <h3>Level 14</h3>
+
+        <div class="feature" id="spell-resistance">
+            <h4>Spell Resistance</h4>
+            <p>You have Advantage on saving throws against spells and Resistance to spell damage.</p>
+        </div>
+
+    </section>
+
+
+</section>
+        </div>
+    </details>
+
+    <details class="subclass-item">
+        <summary class="subclass-summary">Illusionist</summary>
+        <div class="subclass-content">
+            <section class="subclass-section" id="school-of-illusion">
+
+
+    <section class="level-block" id="illusion-level-3">
+
+        <h3>Level 3</h3>
+
+        <div class="feature" id="illusion-savant">
+            <h4>Illusion Savant</h4>
+            <p>Choose two Illusion spells of level 2 or lower and add them to your spellbook for free.</p>
+            <p>You also gain one free Illusion spell when unlocking new spell levels.</p>
+        </div>
+
+        <div class="feature" id="improved-illusions">
+            <h4>Improved Illusions</h4>
+            <p>You can cast Illusion spells without Verbal components, and their range increases by 60 feet (if 10+ ft).</p>
+            <p>You know Minor Illusion, can create both sound and image, and can cast it as a Bonus Action.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="illusion-level-6">
+
+        <h3>Level 6</h3>
+
+        <div class="feature" id="phantasmal-creatures">
+            <h4>Phantasmal Creatures</h4>
+            <p>You always have Summon Beast and Summon Fey prepared.</p>
+            <p>You can cast them as Illusions and once per Long Rest without a slot (with reduced HP).</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="illusion-level-10">
+
+        <h3>Level 10</h3>
+
+        <div class="feature" id="illusory-self">
+            <h4>Illusory Self</h4>
+            <p>As a Reaction, you can cause an attack to miss you.</p>
+            <p>Recharge: Short/Long Rest or expend a level 2+ spell slot.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="illusion-level-14">
+
+        <h3>Level 14</h3>
+
+        <div class="feature" id="illusory-reality">
+            <h4>Illusory Reality</h4>
+            <p>You can make part of an illusion real for 1 minute (non-damaging, non-magical object).</p>
+        </div>
+
+    </section>
+
+
+</section>
+        </div>
+    </details>
+
+    <details class="subclass-item">
+        <summary class="subclass-summary">Diviner</summary>
+        <div class="subclass-content">
+            <section class="subclass-section" id="school-of-divination">
+
+
+    <section class="level-block" id="divination-level-3">
+
+        <h3>Level 3</h3>
+
+        <div class="feature" id="divination-savant">
+            <h4>Divination Savant</h4>
+            <p>Choose two Divination spells of level 2 or lower and add them to your spellbook for free.</p>
+            <p>You also gain one free Divination spell when unlocking new spell levels.</p>
+        </div>
+
+        <div class="feature" id="portent">
+            <h4>Portent</h4>
+            <p>After a Long Rest, roll two d20s and record the results.</p>
+            <p>You can replace any D20 Test with one of these rolls (once per turn).</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="divination-level-6">
+
+        <h3>Level 6</h3>
+
+        <div class="feature" id="expert-divination">
+            <h4>Expert Divination</h4>
+            <p>When casting a level 2+ Divination spell, you regain a lower-level spell slot (max level 5).</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="divination-level-10">
+
+        <h3>Level 10</h3>
+
+        <div class="feature" id="the-third-eye">
+            <h4>The Third Eye</h4>
+            <p>As a Bonus Action, gain one of the following until your next rest:</p>
+
+            <p><strong>Darkvision.</strong> 120 ft.</p>
+            <p><strong>Greater Comprehension.</strong> Read any language.</p>
+            <p><strong>See Invisibility.</strong> Cast without a slot.</p>
+        </div>
+
+    </section>
+
+
+    <section class="level-block" id="divination-level-14">
+
+        <h3>Level 14</h3>
+
+        <div class="feature" id="greater-portent">
+            <h4>Greater Portent</h4>
+            <p>You roll three d20s instead of two for Portent.</p>
+        </div>
+
+    </section>
+
+
+</section>
+        </div>
+    </details>
+
+</section>
 
     </section>
 

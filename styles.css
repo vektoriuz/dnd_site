@@ -509,19 +509,12 @@ header {
     background-color: #f2efe6;
 }
 
-/* LEVEL COLUMN (make it pop slightly) */
-.features-table td:first-child {
-    font-weight: 600;
-    text-align: center;
-    width: 50px;
-}
-
 /* NUMERIC COLUMNS CENTERED */
 .features-table td:nth-child(2),
 .features-table td:nth-child(4),
 .features-table td:nth-child(5),
 .features-table td:nth-child(6) {
-    text-align: center;
+    text-align: left;
     white-space: nowrap;
 }
 
@@ -552,6 +545,162 @@ header {
     font-size: 0.85rem;
 }
 
+.features-table table {
+    max-width: 100%;
+}
+
+.features-table td:last-child {
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
 .features-table a:hover {
     background: #ddd6c5;
 }
+
+
+
+/* Prevent tables from stretching columns */
+.subclass-row .features-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.subclass-row table {
+    word-break: break-word;
+}
+
+.subclass-row td {
+    word-break: break-word;
+    white-space: normal;
+}
+
+
+.subclass-section {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid #444;
+}
+
+.subclass-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.6rem;
+    background-color: rgba(255,255,255,0.05);
+    border-left: 5px solid #aaa;
+}
+
+
+
+
+/* Tabs container */
+.subclass-tabs {
+    margin-top: 2rem;
+}
+
+/* Buttons row */
+.tab-buttons {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid #444;
+    margin-bottom: 1rem;
+}
+
+/* Individual tab */
+.tab-button {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font: inherit;
+    border-bottom: 3px solid transparent;
+}
+
+/* Hover */
+.tab-button:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+
+/* Active tab */
+.tab-button.active {
+    border-bottom: 3px solid #aaa;
+    font-weight: bold;
+}
+
+/* Content panels */
+.tab-content {
+    display: none;
+}
+
+/* Active content */
+.tab-content.active {
+    display: block;
+}
+
+
+
+
+/* Container */
+.subclass-accordion {
+    margin-top: 2rem;
+}
+
+/* Each item */
+.subclass-item {
+    border-top: 2px solid #444;
+    padding: 0.5rem 0;
+}
+
+/* Clickable title */
+.subclass-summary {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* removes default arrow in some browsers */
+}
+
+/* Remove default triangle (optional, cleaner look) */
+.subclass-summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Custom indicator */
+.subclass-summary::before {
+    content: "▶";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.2s ease;
+}
+
+/* Rotate when open */
+.subclass-item[open] .subclass-summary::before {
+    transform: rotate(90deg);
+}
+
+/* Content spacing */
+.subclass-content {
+    margin-top: 1rem;
+}
+
+
+
+.features-summary {
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.features-toggle {
+    margin-top: 1rem;
+}
+
+.features-summary::marker {
+    font-size: 1.2rem;
+}
+
+.features-summary:hover {
+    background-color: #eee;
+}
+
