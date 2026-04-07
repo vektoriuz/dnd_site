@@ -397,6 +397,18 @@ header {
     gap: 2rem;
 }
 
+.two-column2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.two-column2 .column:last-child {
+  position: sticky;
+  top: 20px;
+}
+
 .right-column {
     background-color: #f4f1ea;
     padding: 1rem;
