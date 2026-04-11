@@ -418,6 +418,14 @@ header {
 }
 
 
+.three-column {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr 1.2fr;
+    gap: 2rem;
+}
+
+
+
 .feature {
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
@@ -715,4 +723,7 @@ header {
 .features-summary:hover {
     background-color: #eee;
 }
+
+
+
 

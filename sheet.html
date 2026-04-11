@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Sheet Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <a href="index.html">Main page</a>
+        <a href="classes.html">Classes</a>
+        <a href="backgrounds.html">Backgrounds</a>
+        <a href="species.html">Species</a>
+        <a href="feats.html">Feats</a>
+        <a href="equipment.html">Equipment</a>
+        <a href="spells.html">Spells</a>
+        <a href="sheet.html">Character Sheet</a>
+    </nav>
+</header>
+
+<main class="content">
+
+    <h1>Character Sheet Guide</h1>
+
+    <p>
+        This guide walks you through the process of filling out your character sheet step by step.
+        It assumes you have already chosen your class, background, and species.
+    </p>
+
+    <p>
+        Follow the steps in order. Each section builds on the previous one and completes a different
+        part of your character’s mechanical profile.
+    </p>
+
+    <hr>
+
+
+<section id="download-sheet">
+    <h2>Character Sheet</h2>
+
+    <p>
+        You can download a blank character sheet to follow along with this guide:
+    </p>
+
+    <p>
+        <a href="DnD_2024_Character-Sheet.pdf" target="_blank" class="nav-link">
+            → Open Character Sheet (PDF)
+        </a>
+    </p>
+</section>
+
+<hr>
+
+
+    <!-- ABILITY SCORES -->
+    <section id="ability-scores">
+        <h2>Ability Scores</h2>
+
+        <p>
+            Begin by determining your six ability scores. These form the foundation of your character’s capabilities and many of other details on your character sheet depend on them.
+        </p>
+
+        <ul>
+            <li>Strength</li>
+            <li>Dexterity</li>
+            <li>Constitution</li>
+            <li>Intelligence</li>
+            <li>Wisdom</li>
+            <li>Charisma</li>
+        </ul>
+
+<h3>Assign Ability Scores</h3>
+
+        <p>
+            First, determine the basic set of values. The DM should decide the exact way how to do it. Below are two of the most basic ways, adhering to the balance. These two ways are compatible with each other, so different players can choose whichever suits them better. There are other ways to generate scores, like random dice rolls, but those may result in an unbalanced scores distributions among players.
+
+        </p>
+
+   <section class="two-column">
+  <div class="column">
+
+        <p>
+            The most straightforward way is to use the predetermined score points from the Standard Array. This way is the best for players who don't want to deal with this step too much and still have an effective points distribution for their class.
+        </p>
+
+        <h4>
+            The Standard Array by Class:
+        </h4>
+
+<div class="features-table">
+
+<table>
+    <thead>
+        <tr>
+            <th>Class</th>
+            <th>STR</th>
+            <th>DEX</th>
+            <th>CON</th>
+            <th>INT</th>
+            <th>WIS</th>
+            <th>CHA</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>Barbarian</td>
+            <td>15</td><td>13</td><td>14</td><td>10</td><td>12</td><td>8</td>
+        </tr>
+
+        <tr>
+            <td>Fighter</td>
+            <td>15</td><td>14</td><td>13</td><td>8</td><td>10</td><td>12</td>
+        </tr>
+
+        <tr>
+            <td>Rogue</td>
+            <td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td>
+        </tr>
+
+        <tr>
+            <td>Paladin</td>
+            <td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td>
+        </tr>
+
+        <tr>
+            <td>Ranger</td>
+            <td>12</td><td>15</td><td>13</td><td>8</td><td>14</td><td>10</td>
+        </tr>
+
+        <tr>
+            <td>Warlock</td>
+            <td>8</td><td>14</td><td>13</td><td>12</td><td>10</td><td>15</td>
+        </tr>
+
+        <tr>
+            <td>Cleric</td>
+            <td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td>
+        </tr>
+
+        <tr>
+            <td>Monk</td>
+            <td>12</td><td>15</td><td>13</td><td>10</td><td>14</td><td>8</td>
+        </tr>
+
+        <tr>
+            <td>Sorcerer</td>
+            <td>10</td><td>13</td><td>14</td><td>8</td><td>12</td><td>15</td>
+        </tr>
+
+        <tr>
+            <td>Bard</td>
+            <td>8</td><td>14</td><td>12</td><td>13</td><td>10</td><td>15</td>
+        </tr>
+
+        <tr>
+            <td>Druid</td>
+            <td>8</td><td>12</td><td>14</td><td>13</td><td>15</td><td>10</td>
+        </tr>
+
+        <tr>
+            <td>Wizard</td>
+            <td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td>
+        </tr>
+
+    </tbody>
+</table>
+
+</div>
+</div>
+
+  <div class="column">
+
+        <p>
+            If you want more control over your ability score distribution, you can use Point Cost method. You have 27 points to spend on your ability scores. The cost of each score is shown on the Ability Score Point Costs table. For example, a score of 14 costs 7 of your 27 points
+        </p>
+
+        <h4>
+            Ability Score Point Costs:
+        </h4>
+
+<div class="features-table">
+
+<table>
+    <thead>
+        <tr>
+            <th>Score</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>8</td><td>0</td>
+        </tr>
+
+        <tr>
+            <td>9</td><td>1</td>
+        </tr>
+
+        <tr>
+            <td>10</td><td>2</td>
+        </tr>
+
+        <tr>
+            <td>11</td><td>3</td>
+        </tr>
+
+        <tr>
+            <td>12</td><td>4</td>
+        </tr>
+
+        <tr>
+            <td>13</td><td>5</td>
+        </tr>
+
+        <tr>
+            <td>14</td><td>7</td>
+        </tr>
+
+        <tr>
+            <td>15</td><td>9</td>
+        </tr>
+
+       
+    </tbody>
+</table>
+
+</div>
+
+<hr>
+
+        <p>
+            The method used to generate these scores (standard array, point buy, or rolling)
+            should be agreed upon with your group or Dungeon Master.
+        </p>
+
+</div>
+
+</section>
+
+
+
+
+<h3>Adjust Ability Scores</h3>
+
+        <p>
+            After assigning your ability scores, adjust them according to your background. Your background lists three abilities; increase one of those by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20.
+        </p>
+
+        <p>
+            Some players like to increase their class's primary ability, while others prefer to increase a low score.
+        </p>
+
+    </section>
+
+    <hr>
+
+   <section class="two-column">
+  <div class="column">
+
+    <!-- MODIFIERS -->
+    <section id="modifiers">
+        <h2>Ability Modifiers</h2>
+
+
+
+
+        <p>
+            Each ability score provides a modifier, which is used in most rolls. These modifiers will affect attacks, saving throws, skills, and many class features.
+        </p>
+
+        <p>
+            Record the modifier for each ability score on your sheet using the Ability Scores and Modifiers table.
+        </p>
+
+
+
+    </section>
+
+    <hr>
+
+    <!-- PROFICIENCIES -->
+    <section id="proficiencies">
+        <h2>Proficiencies</h2>
+
+        <p>
+            Your proficiencies come from your class and background.
+        </p>
+
+        <p>This includes:</p>
+
+        <ul>
+            <li>Saving throw proficiencies (from your class)</li>
+            <li>Skill proficiencies (from class and background)</li>
+            <li>Tool proficiencies (from background or features)</li>
+            <li>Weapon and armor proficiencies (from your class)</li>
+        </ul>
+
+        <p>
+            Mark all applicable proficiencies on your character sheet.
+        </p>
+
+        <p>
+            For Weapons and tools, list all proficiencies in the respective sections on your character sheet.
+        </p>
+
+        <p>
+            <a href="classes.html" class="nav-link">→ Class details</a><br>
+            <a href="backgrounds.html" class="nav-link">→ Background details</a>
+        </p>
+
+<h3>Skills values</h3>
+
+        <p>
+            Assign value to each skill. 
+</p>
+        <ul>
+            <li>For a skill without proficiency, copy the value from the associated ability modifier.</li>
+            <li>For a skill with proficiency, add together the value from the associated ability modifier and proficiency bonus.</li>
+        </ul>
+
+  <p>The proficiency bonus is determined by your character level. For details, see the Proficiency Bonus by Character Level table.
+        </p>
+
+    </section>
+
+</div>
+
+
+
+  <div class="column">
+
+<h4>Ability Scores and Modifiers</h4>
+
+<div class="features-table">
+
+<table>
+    <thead>
+        <tr>
+            <th>Score</th>
+            <th>Modifier</th>
+            <th>Score</th>
+            <th>Modifier</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>3</td><td>-4</td><td>12–13</td><td>+1</td>
+        </tr>
+
+        <tr>
+            <td>4–5</td><td>-3</td><td>14–15</td><td>+2</td>
+        </tr>
+
+        <tr>
+            <td>6–7</td><td>-2</td><td>16–17</td><td>+3</td>
+        </tr>
+
+        <tr>
+            <td>8–9</td><td>-1</td><td>18–19</td><td>+4</td>
+        </tr>
+
+        <tr>
+            <td>10–11</td><td>+0</td><td>20</td><td>+5</td>
+        </tr>
+
+       
+    </tbody>
+</table>
+
+</div>
+
+<hr>
+
+
+
+
+<h4>Proficiency Bonus by Character Level</h4>
+
+<div class="features-table">
+
+<table>
+    <thead>
+        <tr>
+            <th>Level</th>
+            <th>Proficiency Bonus</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>1–4</td><td>+2</td></tr>
+        <tr><td>5–8</td><td>+3</td></tr>
+        <tr><td>9–12</td><td>+4</td></tr>
+        <tr><td>13–16</td><td>+5</td></tr>
+        <tr><td>17–20</td><td>+6</td></tr>
+    </tbody>
+</table>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+    <hr>
+
+    <!-- DERIVED STATS -->
+    <section id="derived-stats">
+        <h2>Derived Statistics</h2>
+
+        <p>
+            Several key values are calculated based on your class and ability scores.
+        </p>
+
+        <ul>
+            <li><strong>Armor Class:</strong> Without armor or shield, AC is 10 + Dexterity modifier. Otherwise, follow your equipment description.</li>
+            <li><strong>Hit Points:</strong> For Max HP, add together your character class hit die maximum number and Constitution modifier. At the start, set the current HP equal to Max HP. Leave Temp alone.</li>
+            <li><strong>Hit Dice:</strong> At level 1, you get one dice of the type according to your class Core Traits. For each new level, your max dice number increases by one.</li>
+            <li><strong>Initiative:</strong> Fill in your Dexterity modifier.</li>
+            <li><strong>Speed:</strong> Primarily determined by your character's species. Can be modified via various other effects.</li>
+            <li><strong>Size:</strong> Determined by your character's species.</li>
+            <li><strong>Passive Perception:</strong> 10 + perception modifier (proficiency bonus is also applied if proficient in Perception).</li>
+        </ul>
+
+        <p>
+            Record these values on your sheet.
+        </p>
+    </section>
+
+    <hr>
+
+
+    <!-- WEAPONS -->
+    <section id="weapons">
+        <h2>Weapons and Damage Cantrips</h2>
+
+        <p>
+            Write here your starting weapons. The attack roll bonus for a weapon with which you have proficiency is one of the following, unless a weapon's property says otherwise:
+        </p>
+
+        <ul>
+            <li><strong>Melee attack bonus</strong> = Strength Modifier + Proficiency Bonus</li>
+            <li><strong>Ranged attack bonus</strong> = Dexterity Modifier + Proficiency Bonus</li>
+        </ul>
+
+        <p>
+            Look up the damage and properties of your weapons in Equipment page. You add the same ability modifieryou use for attacks with a weapon to your damage rolls with that weapon.
+        </p>
+
+        <p>
+            <a href="equipment.html" class="nav-link">→ Equipment reference</a>
+        </p>
+    </section>
+
+    <hr>
+
+
+
+    <!-- FEATURES -->
+    <section id="features">
+        <h2>Class Features, Species Traits and Feats</h2>
+
+        <p>
+            Record all your starting Class Features, Species Traits and origin Feats in the respective sections of your character sheet.
+        </p>
+
+        <ul>
+            <li>Starting Class Features are usually those gained at level 1. They can be found in the respective class features table/list.</li>
+            <li>Each species comes with special traits.</li>
+            <li>Background provides a starting feat.</li>
+
+        </ul>
+
+        <p>
+            Write short summaries or key effects so they are easy to reference during play.
+        </p>
+
+        <p>
+            <a href="classes.html" class="nav-link">→ Class features</a><br>
+            <a href="species.html" class="nav-link">→ Species traits</a><br>
+            <a href="feats.html" class="nav-link">→ Feats</a>
+        </p>
+    </section>
+
+    <hr>
+
+
+    <!-- personality -->
+    <section id="personality">
+        <h2>Appearance, Personality and Languages</h2>
+
+   <section class="three-column">
+  <div class="column">
+
+
+        <p>
+            Record details about your character's appearance, backstory and personality in the respective sections.
+        </p>        
+
+<p>
+            Fill in your chosen Alignement.
+        </p>
+
+<h3>Chose Languages</h3>
+
+
+<p>
+            Your character knows at least three languages: Common plus two languages you roll on or choose from the Standard Languages table. Knowledge of a language means your character can communicate in it, read it and write it. Your class and other features might also give you languages.
+        </p>
+
+<p>
+            The Standard Languages table lists languages that are widespread on D&D worlds. Every player character knows Common, which originated in the planar metropolis of Sigil, the hub of the multiverse. The other standard languages originated with the first mambers of the most prominent species in the worlds of D&D and have since spread widely.
+        </p>
+
+<p>
+            The Rare Languages table lists languages that are either secret or derived from other planes of existence and thus less widespread in the worlds of the Material Plane. Some features let a character learn a rare language.
+        </p>
+
+</div>
+
+  <div class="column">
+
+<h4>Standard Languages</h4>
+
+<div class="features-table">
+
+<table>
+    <thead>
+        <tr>
+            <th>1d12</th>
+            <th>Language</th>
+            <th>Origin</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>—</td><td>Common</td><td>Sigil</td></tr>
+        <tr><td>1</td><td>Common Sign Language</td><td>Sigil</td></tr>
+        <tr><td>2</td><td>Draconic</td><td>Dragons</td></tr>
+        <tr><td>3–4</td><td>Dwarvish</td><td>Dwarves</td></tr>
+        <tr><td>5–6</td><td>Elvish</td><td>Elves</td></tr>
+        <tr><td>7</td><td>Giant</td><td>Giants</td></tr>
+        <tr><td>8</td><td>Gnomish</td><td>Gnomes</td></tr>
+        <tr><td>9</td><td>Goblin</td><td>Goblinoids</td></tr>
+        <tr><td>10–11</td><td>Halfling</td><td>Halflings</td></tr>
+        <tr><td>12</td><td>Orc</td><td>Orcs</td></tr>
+    </tbody>
+</table>
+
+</div>
+
+
+</div>
+
+  <div class="column">
+
+<h4>Rare Languages</h4>
+
+<div class="features-table">
+
+<table>
+    <thead>
+        <tr>
+            <th>Language</th>
+            <th>Origin</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Abyssal</td><td>Demons of the Abyss</td></tr>
+        <tr><td>Celestial</td><td>Celestials</td></tr>
+        <tr><td>Deep Speech</td><td>Aberrations</td></tr>
+        <tr><td>Druidic</td><td>Druidic circles</td></tr>
+        <tr><td>Infernal</td><td>Devils of the Nine Hells</td></tr>
+        <tr><td>Primordial*</td><td>Elementals</td></tr>
+        <tr><td>Sylvan</td><td>Fey Feywild</td></tr>
+        <tr><td>Thieves' Cant</td><td>Various criminal guilds</td></tr>
+        <tr><td>Undercommon</td><td>The Underdark</td></tr>
+    </tbody>
+</table>
+
+</div>
+
+<p>*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.</p>
+
+</div>
+
+    </section>
+    </section>
+
+    <hr>
+
+    <!-- EQUIPMENT -->
+    <section id="equipment">
+        <h2>Equipment</h2>
+
+        <p>
+            Add your chosen starting equipment from your class and background.
+        </p>
+
+        <ul>
+            <li>Weapons</li>
+            <li>Armor</li>
+            <li>Clothing</li>
+            <li>Tools</li>
+            <li>...</li>
+        </ul>
+
+        <p>
+            In case of choosing the option B for Class and/or background equipment, you can purchase any equipment available, if you can afford it. Then, add the purchased equipment.
+        </p>
+
+        <p>
+            <a href="equipment.html" class="nav-link">→ Equipment reference</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- SPELLS -->
+    <section id="spells">
+        <h2>Spells (If Applicable)</h2>
+
+        <p>
+            If your class allows spellcasting, select your starting spells.
+        </p>
+
+        <ul>
+            <li>Choose known or prepared spells based on your class</li>
+            <li>Record spell attack bonus and save DC</li>
+            <li>Note spell components and effects</li>
+        </ul>
+
+        <p>
+            <a href="spells.html" class="nav-link">→ Spell reference</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- FINAL NOTE -->
+    <section id="completion">
+        <h2>Completion</h2>
+
+        <p>
+            Once all sections are filled out, your character sheet represents a complete,
+            playable character.
+        </p>
+
+        <p>
+            You can now use it as your primary reference during the game.
+        </p>
+    </section>
+
+</main>
+
+</body>
+</html>
