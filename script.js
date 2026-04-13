@@ -1,32 +1,30 @@
-const tooltip = document.getElementById("tooltip");
-const regions = document.querySelectorAll(".region");
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.createElement("button");
+  button.innerText = "↑ Top";
 
-regions.forEach(region => {
+  button.style.position = "fixed";
+  button.style.bottom = "20px";
+  button.style.right = "20px";
+  button.style.padding = "10px 15px";
+  button.style.fontSize = "16px";
+  button.style.cursor = "pointer";
+  button.style.display = "none";
+  button.style.zIndex = "1000";
 
-    region.addEventListener("mousemove", function(e) {
+  button.onclick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
-        const name = region.dataset.name;
-        const difficulty = region.dataset.difficulty;
+  document.body.appendChild(button);
 
-        tooltip.style.display = "block";
-
-        if (difficulty) {
-            tooltip.innerHTML = name + "<br><small>" + difficulty + "</small>";
-        } else {
-            tooltip.innerHTML = name;
-        }
-
-        tooltip.style.left = (e.pageX + 10) + "px";
-        tooltip.style.top = (e.pageY + 10) + "px";
-
-    });
-
-    region.addEventListener("mouseleave", function() {
-        tooltip.style.display = "none";
-    });
-
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      button.style.display = "block";
+    } else {
+      button.style.display = "none";
+    }
+  });
 });
-
 
 document.querySelectorAll('.tab-button').forEach(button => {
     button.addEventListener('click', () => {
